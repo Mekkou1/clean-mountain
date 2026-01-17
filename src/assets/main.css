@@ -1,0 +1,12 @@
+/* Import SCSS */
+@import './styles.scss';
+
+/* Override Bootstrap */
+.navbar-brand {
+  font-weight: bold;
+  color: #ffd700 !important;
+}
+
+.btn-primary {
+  @extend .btn-custom;
+}
