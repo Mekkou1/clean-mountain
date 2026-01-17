@@ -11,9 +11,7 @@ import { RouterLink } from 'vue-router'
           <div class="carousel-item active">
             <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop" class="d-block w-100 carousel-image" alt="Montagnes alpines">
           </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1464822759844-d150f39b8b3d?w=1200&h=600&fit=crop&auto=format&q=80" class="d-block w-100 carousel-image" alt="Paysage montagneux">
-          </div>
+          
           <div class="carousel-item">
             <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&h=600&fit=crop" class="d-block w-100 carousel-image" alt="Lac alpin">
           </div>
@@ -78,7 +76,7 @@ import { RouterLink } from 'vue-router'
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
+          <div class="col-lg-8 mx-auto text-center text-dark">
             <h2 class="mb-4">À propos de Clean Mountain</h2>
             <p class="lead mb-4">
               Implantée au cœur des Alpes, CLEAN MOUNTAIN est votre allié pour le nettoyage à Châtel, La Chapelle-d'Abondance et Abondance.
@@ -89,22 +87,22 @@ import { RouterLink } from 'vue-router'
               <div class="col-md-4">
                 <div class="text-center">
                   <i class="fas fa-award text-warning fs-1 mb-3"></i>
-                  <h5>Qualité</h5>
-                  <p>Service professionnel et attention aux détails</p>
+                  <h5 class="text-dark">Qualité</h5>
+                  <p class="text-muted">Service professionnel et attention aux détails</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="text-center">
                   <i class="fas fa-seedling text-success fs-1 mb-3"></i>
-                  <h5>Écologique</h5>
-                  <p>Produits et méthodes respectueuses de l'environnement</p>
+                  <h5 class="text-dark">Écologique</h5>
+                  <p class="text-muted">Produits et méthodes respectueuses de l'environnement</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="text-center">
                   <i class="fas fa-user-tie text-primary fs-1 mb-3"></i>
-                  <h5>Professionnalisme</h5>
-                  <p>Équipe expérimentée et fiable</p>
+                  <h5 class="text-dark">Professionnalisme</h5>
+                  <p class="text-muted">Équipe expérimentée et fiable</p>
                 </div>
               </div>
             </div>
@@ -126,9 +124,7 @@ import { RouterLink } from 'vue-router'
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift">
               <div class="card-body text-center p-4">
-                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                  <i class="fas fa-home text-primary fs-2"></i>
-                </div>
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Nettoyage régulier en montagne">
                 <h5 class="card-title text-primary mb-3">Nettoyage régulier</h5>
                 <p class="card-text text-muted">Entretien adapté aux conditions de vie en montagne, avec des méthodes respectueuses de l'environnement.</p>
               </div>
@@ -137,9 +133,7 @@ import { RouterLink } from 'vue-router'
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift">
               <div class="card-body text-center p-4">
-                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                  <i class="fas fa-calendar-alt text-primary fs-2"></i>
-                </div>
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Chalet de location saisonnière">
                 <h5 class="card-title text-primary mb-3">Locations saisonnières</h5>
                 <p class="card-text text-muted">Préparation et nettoyage de vos locations Airbnb et chalets pour un accueil impeccable de vos hôtes.</p>
               </div>
@@ -148,9 +142,7 @@ import { RouterLink } from 'vue-router'
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift">
               <div class="card-body text-center p-4">
-                <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                  <i class="fas fa-leaf text-success fs-2"></i>
-                </div>
+                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Produits écologiques de nettoyage">
                 <h5 class="card-title text-primary mb-3">Méthodes écologiques</h5>
                 <p class="card-text text-muted">Utilisation de produits biodégradables et de techniques respectueuses de la nature alpine.</p>
               </div>
@@ -163,57 +155,40 @@ import { RouterLink } from 'vue-router'
       </div>
     </section>
 
-    <!-- Témoignages clients -->
+    <!-- Galerie de nos services -->
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
-            <h2>Ce que disent nos clients</h2>
+            <h2>Nos Réalisations</h2>
+            <p class="lead text-muted">Découvrez nos prestations en images</p>
           </div>
         </div>
         <div class="row g-4">
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="card-body">
-                <div class="mb-3">
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                </div>
-                <p class="card-text">"Service impeccable et équipe très professionnelle. Ils respectent vraiment l'environnement."</p>
-                <footer class="blockquote-footer">Marie D., Propriétaire de chalet</footer>
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Chalet propre et accueillant">
+              <div class="card-body text-center">
+                <h5 class="card-title text-primary">Chalets nettoyés</h5>
+                <p class="card-text text-muted">Entretien impeccable de vos chalets pour un séjour confortable.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="card-body">
-                <div class="mb-3">
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                </div>
-                <p class="card-text">"Parfaits pour nos locations saisonnières. Les clients sont toujours satisfaits de la propreté."</p>
-                <footer class="blockquote-footer">Pierre L., Gestionnaire Airbnb</footer>
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Ménagère en train de nettoyer">
+              <div class="card-body text-center">
+                <h5 class="card-title text-primary">Nettoyage en action</h5>
+                <p class="card-text text-muted">Notre équipe à l'œuvre pour un résultat professionnel.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm">
-              <div class="card-body">
-                <div class="mb-3">
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                </div>
-                <p class="card-text">"Méthodes écologiques et résultats exceptionnels. Une équipe à recommander."</p>
-                <footer class="blockquote-footer">Sophie M., Résidente</footer>
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Location Airbnb prête">
+              <div class="card-body text-center">
+                <h5 class="card-title text-primary">Locations Airbnb</h5>
+                <p class="card-text text-muted">Préparation parfaite pour accueillir vos hôtes.</p>
               </div>
             </div>
           </div>
@@ -333,5 +308,23 @@ import { RouterLink } from 'vue-router'
 .hover-lift:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Fix text visibility in light background sections */
+.bg-light {
+  color: #333 !important;
+}
+
+.bg-light h2,
+.bg-light h5 {
+  color: #333 !important;
+}
+
+.bg-light p {
+  color: #555 !important;
+}
+
+.bg-light .text-muted {
+  color: #6c757d !important;
 }
 </style>
