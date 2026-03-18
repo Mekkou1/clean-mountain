@@ -80,7 +80,7 @@
           <!-- COFFRET GOURMAND -->
           <div class="col-lg-4">
             <div class="card h-100 border-0 shadow-sm" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1549488344-c6ebabe9600e?w=600&h=250&fit=crop&crop=center" class="card-img-top" alt="Coffret gourmand artisanal" style="height: 200px; object-fit: cover;">
+              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=250&fit=crop&crop=center" class="card-img-top" alt="Coffret gourmand artisanal" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <div class="text-center mb-4">
                   <h3 class="text-brand-green text-uppercase fw-bold">Coffret gourmand</h3>
