@@ -1,0 +1,115 @@
+:root {
+  --cm-green: #063122;
+  --cm-gold: #cba766;
+  --cm-gold-light: #d4af37;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h1:not(.text-white):not(.display-3) {
+  color: var(--cm-green);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Ligne dorée décorative sous le H1 (Effet Luxe) */
+h1:not(.text-white):not(.display-3)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--cm-gold);
+}
+
+h2:not(.text-white) {
+  color: var(--cm-gold);
+  text-transform: uppercase;
+}
+
+h3:not(.text-white) {
+  color: var(--cm-green);
+}
+
+.text-primary {
+  color: var(--cm-green) !important;
+}
+
+.bg-primary {
+  background-color: var(--cm-green) !important;
+}
+
+.text-warning {
+  color: var(--cm-gold) !important;
+}
+
+.bg-warning {
+  background-color: var(--cm-gold) !important;
+}
+
+.btn-primary {
+  background-color: var(--cm-green) !important;
+  border-color: var(--cm-green) !important;
+}
+
+.btn-primary:hover {
+  background-color: #0b4530 !important;
+  border-color: #0b4530 !important;
+}
+
+.text-brand-green {
+  color: var(--cm-green) !important;
+}
+
+.text-brand-gold {
+  color: var(--cm-gold) !important;
+}
+
+.bg-brand-green {
+  background-color: var(--cm-green) !important;
+}
+
+.btn-custom {
+  background: linear-gradient(45deg, var(--cm-green), var(--cm-gold)) !important;
+  border: none !important;
+  border-radius: 25px;
+  color: #ffffff !important;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+}
+
+/* Force override header/footer background */
+.bg-turquoise {
+  background-color: var(--cm-green) !important;
+  background-image: none !important;
+}
+
+footer.mt-5 {
+  background-color: var(--cm-green) !important;
+  background-image: none !important;
+  color: #fff !important;
+}
+
+footer a.text-dark {
+  color: var(--cm-gold) !important;
+}

@@ -1,27 +1,30 @@
 <template>
-  <footer class="text-dark py-4 mt-5">
+  <footer class="text-white py-4 mt-5 bg-brand-green">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-3">
-          <h5>Clean Mountain</h5>
-          <p>Société de nettoyage à Châtel et environs</p>
+          <div class="d-flex align-items-center mb-3">
+            <img src="@/assets/logo_clean.jpg" alt="Clean Mountain Logo" width="45" height="45" class="me-3 rounded shadow-sm" style="object-fit: contain; background: white;">
+            <h5 class="text-brand-gold text-uppercase fw-bold m-0">Clean Mountain</h5>
+          </div>
+          <p>Services premium pour chalets et locations saisonnières</p>
           <p>L'impeccable, naturellement.</p>
         </div>
         <div class="col-md-4 mb-3">
-          <h5>Liens utiles</h5>
+          <h5 class="text-brand-gold mb-3 text-uppercase fw-bold">Liens utiles</h5>
           <ul class="list-unstyled">
-            <li><RouterLink to="/about" class="text-white">À propos</RouterLink></li>
-            <li><RouterLink to="/services" class="text-white">Services</RouterLink></li>
-            <li><RouterLink to="/eco" class="text-white">Écologique</RouterLink></li>
-            <li><RouterLink to="/contact" class="text-white">Contact</RouterLink></li>
+            <li class="mb-2"><RouterLink to="/about" class="text-white text-decoration-none hover-gold">À propos</RouterLink></li>
+            <li class="mb-2"><RouterLink to="/services" class="text-white text-decoration-none hover-gold">Services</RouterLink></li>
+            <li class="mb-2"><RouterLink to="/eco" class="text-white text-decoration-none hover-gold">Écologique</RouterLink></li>
+            <li class="mb-2"><RouterLink to="/contact" class="text-white text-decoration-none hover-gold">Contact</RouterLink></li>
           </ul>
         </div>
         <div class="col-md-4 mb-3">
-          <h5>Contact</h5>
-          <p>Châtel, France</p>
-          <p>Téléphone: +33 1 23 45 67 89</p>
-          <p>Email: contact@cleanmountain.fr</p>
-          <RouterLink to="/legal" class="text-dark">Mentions légales</RouterLink>
+          <h5 class="text-brand-gold mb-3 text-uppercase fw-bold">Contact</h5>
+          <p><i class="fas fa-map-marker-alt me-2 text-brand-gold"></i> Châtel, France</p>
+          <p><i class="fas fa-phone me-2 text-brand-gold"></i> <a href="tel:0641365070" class="text-white text-decoration-none">06 41 36 50 70</a></p>
+          <p><i class="fas fa-envelope me-2 text-brand-gold"></i> <a href="mailto:cleanmountain74@gmail.com" class="text-white text-decoration-none">cleanmountain74@gmail.com</a></p>
+          <RouterLink to="/legal" class="text-brand-gold text-decoration-none mt-2 d-inline-block">Mentions légales</RouterLink>
         </div>
       </div>
       <hr class="my-4">
@@ -32,7 +35,7 @@
   </footer>
 </template>
 
-<script>
+<script lang="ts">
 import { RouterLink } from 'vue-router'
 
 export default {
@@ -45,10 +48,7 @@ export default {
 
 <style scoped>
 footer {
-  background-image: url('/src/assets/fond-menthe-aquarelle_23-2150269799.avif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: var(--cm-green);
 }
 
 footer a:hover {

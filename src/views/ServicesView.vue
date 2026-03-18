@@ -1,65 +1,107 @@
 <template>
   <main class="services-page">
+
+    <!-- Bannière hero Services -->
+    <section class="position-relative mb-5" style="height: 280px; overflow: hidden;">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&h=400&fit=crop" alt="Service de nettoyage professionnel" class="w-100 h-100" style="object-fit: cover; filter: brightness(0.55);">
+      <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="text-white display-5 fw-bold mb-2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">NOS SERVICES</h1>
+        <p class="lead" style="font-style: italic; color: var(--cm-gold);">Impeccable, naturellement.</p>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
         <div class="text-center mb-5">
-          <h1>Nos Services</h1>
           <p class="lead">Clean Mountain propose des prestations de ménage fiables, soignées et adaptées aux exigences de la vie en station et en zone de montagne.</p>
         </div>
 
-        <div class="row g-4">
-          <div class="col-lg-6">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80" class="rounded-circle mb-3" style="width: 80px; height: 80px;" alt="Nettoyage régulier">
-                <h3>Nettoyage régulier</h3>
-                <p>Entretien hebdomadaire ou mensuel de vos logements pour un confort optimal tout au long de l'année.</p>
-                <ul class="list-unstyled">
-                  <li><i class="fas fa-check text-success me-2"></i>Ménage complet des pièces</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Nettoyage des sols et surfaces</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Entretien des équipements</li>
+        <div class="row g-4 justify-content-center">
+          <!-- ENTRETIEN ÉCOLOGIQUE -->
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=250&fit=crop&crop=center" class="card-img-top" alt="Entretien écologique de chalet" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <div class="text-center mb-4">
+                  <h3 class="text-brand-green text-uppercase fw-bold">Entretien écologique</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Ménage chalets &amp; appartements</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Gestion de locations saisonnières / Airbnb</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Gestion du linge &amp; mise en place des lits</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Produits respectueux de l'environnement</span>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80" class="rounded-circle mb-3" style="width: 80px; height: 80px;" alt="Ménage ponctuel">
-                <h3>Ménage ponctuel</h3>
-                <p>Intervention ponctuelle pour les arrivées, départs ou événements spéciaux.</p>
-                <ul class="list-unstyled">
-                  <li><i class="fas fa-check text-success me-2"></i>Préparation des locations</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Nettoyage après événement</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Intervention d'urgence</li>
+
+          <!-- CUISINE CHEZ VOUS -->
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=250&fit=crop&crop=center" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <div class="text-center mb-4">
+                  <h3 class="text-brand-green text-uppercase fw-bold">Cuisine chez vous</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Cuisine exotique familiale</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Option végétarienne disponible</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Pour 2 à 10 personnes (et plus)</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Nettoyage de la cuisine après prestation</span>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80" class="rounded-circle mb-3" style="width: 80px; height: 80px;" alt="Entretien Airbnb et locations saisonnières">
-                <h3>Entretien Airbnb et locations saisonnières</h3>
-                <p>Service spécialisé pour les locations courte durée, garantissant des standards élevés.</p>
-                <ul class="list-unstyled">
-                  <li><i class="fas fa-check text-success me-2"></i>Check-in/check-out rapide</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Qualité irréprochable</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Adaptation aux exigences des plateformes</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card h-100">
-              <div class="card-body text-center">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80&q=80" class="rounded-circle mb-3" style="width: 80px; height: 80px;" alt="Locaux professionnels">
-                <h3>Locaux professionnels</h3>
-                <p>Nettoyage professionnel pour bureaux, commerces et espaces professionnels en montagne.</p>
-                <ul class="list-unstyled">
-                  <li><i class="fas fa-check text-success me-2"></i>Entretien quotidien</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Nettoyage en profondeur</li>
-                  <li><i class="fas fa-check text-success me-2"></i>Respect des normes d'hygiène</li>
+
+          <!-- COFFRET GOURMAND -->
+          <div class="col-lg-4">
+            <div class="card h-100 border-0 shadow-sm" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1549488344-c6ebabe9600e?w=600&h=250&fit=crop&crop=center" class="card-img-top" alt="Coffret gourmand artisanal" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <div class="text-center mb-4">
+                  <h3 class="text-brand-green text-uppercase fw-bold">Coffret gourmand</h3>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Traditions savoyardes</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Douceurs exotiques</span>
+                  </li>
+                  <li class="mb-3 d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Objets d'art sculptés sur bois</span>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="fas fa-check mt-1 me-3" style="color: var(--cm-gold);"></i>
+                    <span>Présentation élégante et personnalisable</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -74,8 +116,10 @@
   </main>
 </template>
 
-<script>
+<script lang="ts">
+import { RouterLink } from 'vue-router'
 export default {
-  name: 'ServicesView'
+  name: 'ServicesView',
+  components: { RouterLink }
 }
 </script>

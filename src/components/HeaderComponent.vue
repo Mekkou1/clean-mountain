@@ -1,8 +1,8 @@
 <template>
-  <header class="navbar navbar-expand-lg navbar-light bg-turquoise">
+  <header class="navbar navbar-expand-lg navbar-dark bg-brand-green py-3 shadow-sm">
     <div class="container">
       <RouterLink class="navbar-brand" to="/">
-        <img src="@/assets/logo.svg" alt="Clean Mountain Logo" width="40" height="40" class="me-2">
+        <img src="@/assets/logo_clean.jpg" alt="Clean Mountain Logo" width="45" height="45" class="me-2 rounded shadow-sm" style="object-fit: contain; background: white;">
         CLEAN MOUNTAIN
       </RouterLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
   </header>
 </template>
 
-<script>
+<script lang="ts">
 import { RouterLink } from 'vue-router'
 
 export default {
@@ -46,41 +46,42 @@ export default {
 </script>
 
 <style scoped>
-header {
-  background-image: url('/src/assets/fond-menthe-aquarelle_23-2150269799.avif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.navbar {
+  background-color: var(--cm-green) !important;
+  background-image: none !important;
 }
 
 .navbar-brand {
-  font-weight: bold;
-  color: #FFD700 !important;
-  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--cm-gold) !important;
+  font-family: 'Outfit', 'Montserrat', sans-serif;
+  letter-spacing: 1px;
 }
 
 .nav-link {
-  color: #000000 !important;
+  color: #ffffff !important;
+  font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #ffd700 !important;
+  color: var(--cm-gold) !important;
 }
 
 .btn-custom {
-  background: linear-gradient(45deg, #00bcd4, #ffd700);
-  border: none;
+  background: linear-gradient(45deg, var(--cm-green), var(--cm-gold));
+  border: 1px solid var(--cm-gold);
   border-radius: 25px;
-  color: #ffffff;
-  padding: 8px 16px;
-  text-decoration: none;
-  transition: background 0.3s ease;
+  color: #ffffff !important;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .btn-custom:hover {
-  background: linear-gradient(45deg, #4dd0e1, #ffd700);
-  color: #ffffff;
-  text-decoration: none;
+  background: linear-gradient(45deg, #0b4530, #d4af37);
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 </style>

@@ -1,4 +1,4 @@
-import './assets/main.css'
+import './assets/brand.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 

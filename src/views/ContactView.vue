@@ -42,20 +42,22 @@
         </form>
       </div>
       <div class="col-md-6">
-        <h3>Nos coordonnées</h3>
-        <p><strong>Clean Mountain</strong></p>
-        <p>Châtel, France</p>
-        <p>Téléphone: +33 1 23 45 67 89</p>
-        <p>Email: contact@cleanmountain.fr</p>
+        <h3 class="text-brand-green mb-4">Nos coordonnées</h3>
+        <p class="mb-3"><i class="fas fa-building me-2 text-brand-gold"></i> <strong>Clean Mountain</strong></p>
+        <p class="mb-3"><i class="fas fa-map-marker-alt me-2 text-brand-gold"></i> Châtel, France</p>
+        <p class="mb-3"><i class="fas fa-phone me-2 text-brand-gold"></i> Téléphone: <a href="tel:0641365070" class="text-decoration-none text-dark">06 41 36 50 70</a></p>
+        <p class="mb-3"><i class="fas fa-envelope me-2 text-brand-gold"></i> Email: <a href="mailto:cleanmountain74@gmail.com" class="text-decoration-none text-dark">cleanmountain74@gmail.com</a></p>
         <div class="mt-4">
-          <img src="@/assets/IMAGE 5.jpg" alt="Image de contact" class="img-fluid" />
+          <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80" alt="Chalet alpin Clean Mountain" class="img-fluid rounded shadow" style="object-fit: cover; height: 220px; width: 100%;" />
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import emailjs from '@emailjs/browser';
+
 export default {
   name: 'ContactView',
   data() {
@@ -72,10 +74,20 @@ export default {
     }
   },
   methods: {
-    submitForm() {
-      console.log('Form submitted:', this.form)
-      alert('Message envoyé avec succès!')
-      this.resetForm()
+    async submitForm() {
+      try {
+        // Clés secrètes EmailJS pour le formulaire Contact
+        const SERVICE_ID = 'service_cleanmountain';
+        const TEMPLATE_ID = 'template_sx7eq6c';
+        const PUBLIC_KEY = 'RsJxaN0Y-HqGYf9Tz';
+
+        await emailjs.send(SERVICE_ID, TEMPLATE_ID, this.form as Record<string, unknown>, PUBLIC_KEY);
+        alert('Message envoyé avec succès!');
+        this.resetForm();
+      } catch (error) {
+        console.error("Erreur lors de l'envoi du message:", error);
+        alert("Une erreur est survenue. Veuillez réessayer plus tard.");
+      }
     },
     resetForm() {
       this.form = {

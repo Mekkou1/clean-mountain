@@ -52,7 +52,7 @@ import { RouterLink } from 'vue-router'
     </section>
 
     <!-- Section Héros -->
-    <section class="hero-section text-white py-5 fade-in-up d-none" style="background: linear-gradient(135deg, #00bcd4 0%, #008ba3 100%);">
+    <section class="hero-section text-white py-5 fade-in-up d-none" style="background: linear-gradient(135deg, var(--cm-green) 0%, #0b4530 100%);">
       <div class="container">
         <div class="row align-items-center min-vh-75">
           <div class="col-lg-7">
@@ -100,7 +100,7 @@ import { RouterLink } from 'vue-router'
               </div>
               <div class="col-md-4">
                 <div class="text-center">
-                  <i class="fas fa-user-tie text-primary fs-1 mb-3"></i>
+                  <i class="fas fa-user-tie text-brand-green fs-1 mb-3"></i>
                   <h5 class="text-dark">Professionnalisme</h5>
                   <p class="text-muted">Équipe expérimentée et fiable</p>
                 </div>
@@ -116,35 +116,38 @@ import { RouterLink } from 'vue-router'
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
-            <h2 class="text-primary">Nos Services Phares</h2>
-            <p class="lead text-muted">Découvrez nos prestations adaptées à la vie en montagne</p>
+            <h2 class="text-brand-gold mb-3 text-uppercase">Nos Services Phares</h2>
+            <p class="lead text-muted" style="font-family: 'Montserrat', sans-serif; font-style: italic;">Découvrez nos prestations adaptées à la vie en montagne</p>
           </div>
         </div>
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
+          <!-- Entretien écologique -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-lg hover-lift">
+            <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Entretien écologique de chalet" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Nettoyage régulier en montagne">
-                <h5 class="card-title text-primary mb-3">Nettoyage régulier</h5>
-                <p class="card-text text-muted">Entretien adapté aux conditions de vie en montagne, avec des méthodes respectueuses de l'environnement.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Entretien écologique</h5>
+                <p class="card-text text-muted">Ménage chalets, appartements, gestion Airbnb, linge de maison avec produits respectueux de l'environnement.</p>
               </div>
             </div>
           </div>
+          <!-- Cuisine chez vous -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-lg hover-lift">
+            <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Chalet de location saisonnière">
-                <h5 class="card-title text-primary mb-3">Locations saisonnières</h5>
-                <p class="card-text text-muted">Préparation et nettoyage de vos locations Airbnb et chalets pour un accueil impeccable de vos hôtes.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Cuisine chez vous</h5>
+                <p class="card-text text-muted">Cuisine exotique familiale (option végétarienne) pour 2 à 10+ personnes. Suivie d'un nettoyage impeccable.</p>
               </div>
             </div>
           </div>
+          <!-- Coffret gourmand -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-lg hover-lift">
+            <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
+              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Panier gourmand avec fruits et jus" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=200&h=200&fit=crop&crop=center" class="rounded-circle mb-3" style="width: 80px; height: 80px; object-fit: cover;" alt="Produits écologiques de nettoyage">
-                <h5 class="card-title text-primary mb-3">Méthodes écologiques</h5>
-                <p class="card-text text-muted">Utilisation de produits biodégradables et de techniques respectueuses de la nature alpine.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Coffret gourmand</h5>
+                <p class="card-text text-muted">Traditions savoyardes, douceurs exotiques, et objets d'art, présentés avec élégance pour vous.</p>
               </div>
             </div>
           </div>
@@ -169,7 +172,7 @@ import { RouterLink } from 'vue-router'
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Chalet propre et accueillant">
               <div class="card-body text-center">
-                <h5 class="card-title text-primary">Chalets nettoyés</h5>
+                <h5 class="card-title text-brand-green text-uppercase">Chalets nettoyés</h5>
                 <p class="card-text text-muted">Entretien impeccable de vos chalets pour un séjour confortable.</p>
               </div>
             </div>
@@ -178,7 +181,7 @@ import { RouterLink } from 'vue-router'
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Ménagère en train de nettoyer">
               <div class="card-body text-center">
-                <h5 class="card-title text-primary">Nettoyage en action</h5>
+                <h5 class="card-title text-brand-green text-uppercase">Nettoyage en action</h5>
                 <p class="card-text text-muted">Notre équipe à l'œuvre pour un résultat professionnel.</p>
               </div>
             </div>
@@ -187,7 +190,7 @@ import { RouterLink } from 'vue-router'
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Location Airbnb prête">
               <div class="card-body text-center">
-                <h5 class="card-title text-primary">Locations Airbnb</h5>
+                <h5 class="card-title text-brand-green text-uppercase">Locations Airbnb</h5>
                 <p class="card-text text-muted">Préparation parfaite pour accueillir vos hôtes.</p>
               </div>
             </div>
@@ -197,12 +200,16 @@ import { RouterLink } from 'vue-router'
     </section>
 
     <!-- Appels à l’action -->
-    <section class="py-5 text-white position-relative overflow-hidden" style="background: linear-gradient(135deg, #00bcd4 0%, #008ba3 100%);">
+    <section class="py-5 text-white position-relative overflow-hidden" style="background: linear-gradient(135deg, var(--cm-green) 0%, #0b4530 100%);">
       <div class="container text-center position-relative z-1">
-        <h2 class="display-5 fw-bold mb-4">Prêt à faire briller votre espace ?</h2>
-        <p class="lead mb-5 fs-5">Contactez-nous pour un devis gratuit ou découvrez nos services en détail.</p>
-        <div class="d-flex justify-content-center gap-4 flex-wrap">
-          <RouterLink to="/contact" class="btn btn-light btn-lg px-5 py-3 shadow-lg">Contact</RouterLink>
+        <h2 class="display-5 fw-bold mb-4">Prêt à nous confier vos espaces ?</h2>
+        <p class="lead mb-5 fs-5">Contactez-nous pour un devis personnalisé et retrouvez la tranquillité d'esprit.</p>
+        <p class="lead mb-4 fw-bold text-brand-gold fs-4">
+          <i class="fas fa-phone me-2"></i> 06 41 36 50 70<br>
+          <i class="fas fa-envelope me-2"></i> cleanmountain74@gmail.com
+        </p>
+        <div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
+          <RouterLink to="/contact" class="btn btn-warning btn-lg px-5 py-3 shadow-lg" style="color: var(--cm-green) !important; font-weight: bold;">Contact</RouterLink>
           <RouterLink to="/quote" class="btn btn-outline-light btn-lg px-5 py-3 shadow-lg">Demande de devis</RouterLink>
         </div>
       </div>
@@ -235,7 +242,7 @@ import { RouterLink } from 'vue-router'
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 188, 212, 0.3) 0%, rgba(0, 138, 163, 0.3) 100%);
+  background: linear-gradient(135deg, rgba(6, 49, 34, 0.4) 0%, rgba(6, 49, 34, 0.6) 100%);
   z-index: 2;
 }
 
@@ -269,7 +276,7 @@ import { RouterLink } from 'vue-router'
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 188, 212, 0.7);
+  background: rgba(6, 49, 34, 0.7);
   z-index: 1;
 }
 
@@ -311,11 +318,10 @@ import { RouterLink } from 'vue-router'
 }
 
 /* Fix text visibility in light background sections */
-.bg-light {
-  color: #333 !important;
+.bg-light p {
+  color: #555 !important;
 }
 
-.bg-light h2,
 .bg-light h5 {
   color: #333 !important;
 }
