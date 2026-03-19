@@ -5,10 +5,10 @@
         <div class="col-md-4 mb-3">
           <div class="d-flex align-items-center mb-3">
             <img src="@/assets/logo_clean.jpg" alt="Clean Mountain Logo" width="45" height="45" class="me-3 rounded shadow-sm" style="object-fit: contain; background: white;">
-            <h5 class="text-brand-gold text-uppercase fw-bold m-0">Clean Mountain</h5>
+            <h5 class="text-brand-gold text-uppercase fw-bold m-0">Clean Mountain & CO</h5>
           </div>
           <p>Services premium pour chalets et locations saisonnières</p>
-          <p>L'impeccable, naturellement.</p>
+          <p>Impeccable, naturellement.</p>
         </div>
         <div class="col-md-4 mb-3">
           <h5 class="text-brand-gold mb-3 text-uppercase fw-bold">Liens utiles</h5>

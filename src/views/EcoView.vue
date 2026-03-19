@@ -33,7 +33,7 @@
           <!-- Carte 2 : Produits -->
           <div class="col-lg-6">
             <div class="card h-100 border-0 shadow-sm" style="overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&h=280&fit=crop" class="card-img-top" alt="Produits écologiques certifiés" style="height: 220px; object-fit: cover;">
+              <img src="/images/produits-eco.jpg" class="card-img-top" alt="Assortiment de produits écologiques certifiés" style="height: 220px; object-fit: cover;">
               <div class="card-body text-center p-4">
                 <h3 class="text-brand-green text-uppercase fw-bold mb-3">Produits utilisés</h3>
                 <ul class="list-unstyled text-start">

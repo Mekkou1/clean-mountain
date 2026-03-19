@@ -5,8 +5,8 @@
     <section class="position-relative mb-5" style="height: 280px; overflow: hidden;">
       <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&h=400&fit=crop" alt="Paysage alpin Clean Mountain" class="w-100 h-100" style="object-fit: cover; filter: brightness(0.5);">
       <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-        <h1 class="text-white display-5 fw-bold mb-2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">À PROPOS DE CLEAN MOUNTAIN</h1>
-        <p class="lead" style="font-style: italic; color: var(--cm-gold);">L'impeccable, naturellement.</p>
+        <h1 class="text-white display-5 fw-bold mb-2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">À PROPOS DE CLEAN MOUNTAIN & CO</h1>
+        <p class="lead" style="font-style: italic; color: var(--cm-gold);">Impeccable, naturellement.</p>
       </div>
     </section>
 

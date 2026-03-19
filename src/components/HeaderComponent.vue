@@ -3,7 +3,7 @@
     <div class="container">
       <RouterLink class="navbar-brand" to="/">
         <img src="@/assets/logo_clean.jpg" alt="Clean Mountain Logo" width="45" height="45" class="me-2 rounded shadow-sm" style="object-fit: contain; background: white;">
-        CLEAN MOUNTAIN
+        CLEAN MOUNTAIN & CO
       </RouterLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

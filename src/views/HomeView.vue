@@ -9,14 +9,16 @@ import { RouterLink } from 'vue-router'
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop" class="d-block w-100 carousel-image" alt="Montagnes alpines">
-          </div>
-          
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=1200&h=600&fit=crop" class="d-block w-100 carousel-image" alt="Lac alpin">
+            <img src="/images/hero-living.jpg" class="d-block w-100 carousel-image" alt="Chalet chaleureux">
           </div>
           <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&h=600&fit=crop" class="d-block w-100 carousel-image" alt="Forêt alpine">
+            <img src="/images/hero-bed.jpg" class="d-block w-100 carousel-image" alt="Entretien espace nuit">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/hero-food.jpg" class="d-block w-100 carousel-image" alt="Cuisine exotique">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/hero-basket.jpg" class="d-block w-100 carousel-image" alt="Coffret gourmand">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
@@ -34,8 +36,8 @@ import { RouterLink } from 'vue-router'
         <div class="container">
           <div class="row align-items-center min-vh-75">
             <div class="col-lg-7">
-              <h1 class="display-3 fw-bold mb-4 text-white">L'impeccable, naturellement.</h1>
-              <p class="lead mb-4 fs-5 text-white">Clean Mountain, votre partenaire pour un nettoyage professionnel et respectueux de l'environnement dans les Alpes.</p>
+              <h1 class="display-3 fw-bold mb-4 text-white">Impeccable, naturellement.</h1>
+              <p class="lead mb-4 fs-5 text-white">Service d'entretien / Cuisine chez l'habitant &amp; Coffrets gourmands.</p>
               <div class="d-flex gap-3 flex-wrap">
                 <RouterLink to="/services" class="btn btn-light btn-lg px-4 py-3">Nos services</RouterLink>
                 <RouterLink to="/quote" class="btn btn-outline-light btn-lg px-4 py-3">Demande de devis</RouterLink>
@@ -56,8 +58,8 @@ import { RouterLink } from 'vue-router'
       <div class="container">
         <div class="row align-items-center min-vh-75">
           <div class="col-lg-7">
-            <h1 class="display-3 fw-bold mb-4 text-white">L'impeccable, naturellement.</h1>
-            <p class="lead mb-4 fs-5">Clean Mountain, votre partenaire pour un nettoyage professionnel et respectueux de l'environnement dans les Alpes.</p>
+            <h1 class="display-3 fw-bold mb-4 text-white">Impeccable, naturellement.</h1>
+            <p class="lead mb-4 fs-5 text-white">Service d'entretien / Repas chez l'habitant &amp; Coffrets gourmands.</p>
             <div class="d-flex gap-3 flex-wrap">
               <RouterLink to="/services" class="btn btn-light btn-lg px-4 py-3">Nos services</RouterLink>
               <RouterLink to="/quote" class="btn btn-outline-light btn-lg px-4 py-3">Demande de devis</RouterLink>
@@ -77,11 +79,28 @@ import { RouterLink } from 'vue-router'
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center text-dark">
-            <h2 class="mb-4">À propos de Clean Mountain</h2>
+            <h2 class="mb-4">À propos de Clean Mountain & CO</h2>
             <p class="lead mb-4">
-              Implantée au cœur des Alpes, CLEAN MOUNTAIN est votre allié pour le nettoyage à Châtel, La Chapelle-d'Abondance et Abondance.
-              Nous proposons des prestations de ménage soignées pour logements, chalets, appartements, résidences de montagne, locations saisonnières
-              et logements Airbnb. CLEAN MOUNTAIN accompagne également les professionnels pour l'entretien de leurs locaux.
+              Au cœur des Alpes, CLEAN MOUNTAIN & CO vous accompagne avec des prestations sur mesure à Châtel, La Chapelle-d’Abondance et Abondance.
+            </p>
+            <div class="d-flex justify-content-center mb-4">
+              <ul class="list-unstyled text-start m-0 p-4 bg-white rounded shadow-sm border" style="border-left: 4px solid var(--cm-green) !important;">
+                <li class="mb-3 d-flex align-items-center fs-5">
+                  <i class="fas fa-check-circle text-brand-green me-3 fs-4"></i> Chalets et appartements
+                </li>
+                <li class="mb-3 d-flex align-items-center fs-5">
+                  <i class="fas fa-check-circle text-brand-green me-3 fs-4"></i> Locations saisonnières & Airbnb
+                </li>
+                <li class="mb-3 d-flex align-items-center fs-5">
+                  <i class="fas fa-check-circle text-brand-green me-3 fs-4"></i> Logements privés
+                </li>
+                <li class="d-flex align-items-center fs-5">
+                  <i class="fas fa-check-circle text-brand-green me-3 fs-4"></i> Locaux professionnels
+                </li>
+              </ul>
+            </div>
+            <p class="lead mb-4">
+              En tant qu’auto-entrepreneur, je vous offre un service personnalisé, fiable et réactif, avec un réel souci du détail, afin d’offrir une expérience unique et mémorable à vos invités ou clients.
             </p>
             <div class="row g-4">
               <div class="col-md-4">
@@ -124,30 +143,45 @@ import { RouterLink } from 'vue-router'
           <!-- Entretien écologique -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Entretien écologique de chalet" style="height: 180px; object-fit: cover;">
+              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Entretien écologique de chalet" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Entretien écologique</h5>
-                <p class="card-text text-muted">Ménage chalets, appartements, gestion Airbnb, linge de maison avec produits respectueux de l'environnement.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-4 text-uppercase">Entretien écologique</h5>
+                <ul class="list-unstyled text-start text-muted mb-0 fs-6">
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Nettoyage approfondi et finitions soignées</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Gestion du linge &amp; mise en place des lits</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Préparation complète entre chaque séjour</span></li>
+                  <li class="d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Produits respectueux de l'environnement</span></li>
+                </ul>
               </div>
             </div>
           </div>
           <!-- Cuisine chez vous -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 180px; object-fit: cover;">
+              <img src="/images/service-cuisine.jpg" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Cuisine chez vous</h5>
-                <p class="card-text text-muted">Cuisine exotique familiale (option végétarienne) pour 2 à 10+ personnes. Suivie d'un nettoyage impeccable.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-4 text-uppercase">Cuisine chez l'habitant</h5>
+                <ul class="list-unstyled text-start text-muted mb-0 fs-6">
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Cuisine raffinée aux inspirations exotiques</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Option végétarienne disponible</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Pour 2 à 10 personnes (et plus)</span></li>
+                  <li class="d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Nettoyage de la cuisine après prestation</span></li>
+                </ul>
               </div>
             </div>
           </div>
           <!-- Coffret gourmand -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=220&fit=crop&crop=center" class="card-img-top" alt="Panier gourmand avec fruits et jus" style="height: 180px; object-fit: cover;">
+              <img src="/images/service-coffret.jpg" class="card-img-top" alt="Panier gourmand avec fruits et jus" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
-                <h5 class="card-title text-brand-green fw-bold mb-3 text-uppercase">Coffret gourmand</h5>
-                <p class="card-text text-muted">Traditions savoyardes, douceurs exotiques, et objets d'art, présentés avec élégance pour vous.</p>
+                <h5 class="card-title text-brand-green fw-bold mb-4 text-uppercase">Coffret gourmand</h5>
+                <ul class="list-unstyled text-start text-muted mb-0 fs-6">
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Traditions savoyardes</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Douceurs exotiques</span></li>
+                  <li class="mb-2 d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Objets d'art sculptés sur bois</span></li>
+                  <li class="d-flex align-items-start"><i class="fas fa-check text-brand-gold mt-1 me-3"></i><span>Présentation personnalisable</span></li>
+                </ul>
               </div>
             </div>
           </div>
@@ -167,31 +201,54 @@ import { RouterLink } from 'vue-router'
             <p class="lead text-muted">Découvrez nos prestations en images</p>
           </div>
         </div>
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
+          <!-- Realisation 1 -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Chalet propre et accueillant">
+              <img src="/images/realisation-2-dining.jpg" class="card-img-top" alt="Salle à manger propre et chaleureuse" style="height: 250px; object-fit: cover;">
               <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">Chalets nettoyés</h5>
-                <p class="card-text text-muted">Entretien impeccable de vos chalets pour un séjour confortable.</p>
+                <h5 class="card-title text-brand-green text-uppercase">Chalets accueillants</h5>
+                <p class="card-text text-muted">Des espaces de vie parfaitement nettoyés et chaleureux pour vos séjours.</p>
               </div>
             </div>
           </div>
+          <!-- Realisation 2 -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Ménagère en train de nettoyer">
+              <img src="/images/realisation-4-shower.jpg" class="card-img-top" alt="Salle de bain impeccable" style="height: 250px; object-fit: cover;">
               <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">Nettoyage en action</h5>
-                <p class="card-text text-muted">Notre équipe à l'œuvre pour un résultat professionnel.</p>
+                <h5 class="card-title text-brand-green text-uppercase">Hygiène irréprochable</h5>
+                <p class="card-text text-muted">Un nettoyage approfondi des pièces d'eau et la mise en place du linge.</p>
               </div>
             </div>
           </div>
+          <!-- Realisation 3 -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop&crop=center" class="card-img-top" alt="Location Airbnb prête">
+              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
               <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">Locations Airbnb</h5>
-                <p class="card-text text-muted">Préparation parfaite pour accueillir vos hôtes.</p>
+                <h5 class="card-title text-brand-green text-uppercase">Cuisines impeccables</h5>
+                <p class="card-text text-muted">Entretien minutieux de vos équipements et espaces repas.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Realisation 4 -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/realisation-5-fish.jpg" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 300px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-brand-green text-uppercase">Cuisine à domicile</h5>
+                <p class="card-text text-muted">Des plats cuisinés maison, pour le plus grand bonheur de vos invités.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Realisation 5 -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/realisation-1-coffret.jpg" class="card-img-top" alt="Joli panier gourmand" style="height: 300px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-brand-green text-uppercase">Coffrets gourmands artisanaux</h5>
+                <p class="card-text text-muted">Traditions savoyardes et délicatesses préparées sur commande.</p>
               </div>
             </div>
           </div>
