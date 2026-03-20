@@ -210,7 +210,7 @@ import { RouterLink } from 'vue-router'
           <!-- 2. Gestion du linge & Lits (R7) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et lits" style="height: 250px; object-fit: cover;">
+              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et mise en place des lits" style="height: 250px; object-fit: cover;">
               <div class="card-body text-center d-flex flex-column">
                 <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r7.title') }}</h5>
                 <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r7.desc') }}</p>
