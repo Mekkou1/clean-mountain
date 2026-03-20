@@ -41,23 +41,23 @@
               </h3>
               <ul class="list-unstyled mb-0">
                 <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star text-warning me-2 fs-6"></i> {{ $t('menu.p1_name') }}</h5>
+                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p1_name') }}</h5>
                   <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p1_desc') }}</p>
                 </li>
                 <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star text-warning me-2 fs-6"></i> {{ $t('menu.p2_name') }}</h5>
+                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p2_name') }}</h5>
                   <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p2_desc') }}</p>
                 </li>
                 <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star text-warning me-2 fs-6"></i> {{ $t('menu.p3_name') }}</h5>
+                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p3_name') }}</h5>
                   <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p3_desc') }}</p>
                 </li>
                 <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star text-warning me-2 fs-6"></i> {{ $t('menu.p4_name') }}</h5>
+                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p4_name') }}</h5>
                   <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p4_desc') }}</p>
                 </li>
                 <li class="mb-3">
-                  <h5 class="fw-bold"><i class="fas fa-star text-warning me-2 fs-6"></i> {{ $t('menu.p5_name') }}</h5>
+                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p5_name') }}</h5>
                   <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p5_desc') }}</p>
                 </li>
               </ul>
