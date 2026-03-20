@@ -26,7 +26,7 @@
     "services": "Nos Services",
     "about": "À Propos",
     "eco": "Éco-responsable",
-    "menu": "Maquis d'Angie",
+    "menu": "Maquis d'Ange",
     "contact": "Contact",
     "quote": "Demander un devis"
   },
@@ -110,9 +110,9 @@
     "benefits_p2": "En faisant confiance à Clean Mountain, vous contribuez directement à la préservation des écosystèmes alpins uniques de Châtel et de ses environs."
   },
   "menu": {
-    "hero_title": "LE MAQUIS D'ANGIE",
+    "hero_title": "LE MAQUIS D'ANGE",
     "hero_subtitle": "Saveurs d’ici, accueil d’ailleurs",
-    "hero_description": "\"Le maquis\", c’est l’âme de la cuisine ivoirienne : un lieu vivant, chaleureux et authentique, où l’on partage des plats généreux dans une ambiance conviviale. Chez Maquis d'Angie, le maquis prend de la hauteur et s’invite en montagne.",
+    "hero_description": "\"Le maquis\", c’est l’âme de la cuisine ivoirienne : un lieu vivant, chaleureux et authentique, où l’on partage des plats généreux dans une ambiance conviviale. Chez Maquis d'Ange, le maquis prend de la hauteur et s’invite en montagne.",
     "title": "Menus Exotiques",
     "people_label": "Pour",
     "people_unit": "personnes",
@@ -190,7 +190,7 @@
       "r1_name": "Sophie D.",
       "r1_text": "Un service impeccable ! Mon chalet n'a jamais été aussi propre. L'attention aux détails est impressionnante.",
       "r2_name": "Marc L.",
-      "r2_text": "Le menu du Maquis d'Angie était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
+      "r2_text": "Le menu du Maquis d'Ange était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
       "r3_name": "Julie V.",
       "r3_text": "Professionnalisme et réactivité au top pour la gestion de ma location Airbnb. Je recommande vivement !"
     }
@@ -229,10 +229,10 @@
     "select_min_one": "Veuillez sélectionner au moins un plat."
   },
   "realisations": {
-    "title": "Nos Réalisations",
+    "title": "Nos actions",
     "subtitle": "Découvrez nos prestations en images",
     "r1": {
-      "title": "Chalets accueillants",
+      "title": "Entretien harmonieux",
       "desc": "Des espaces de vie parfaitement nettoyés et chaleureux pour vos séjours."
     },
     "r2": {

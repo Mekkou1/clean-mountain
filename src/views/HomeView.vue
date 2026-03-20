@@ -9,20 +9,19 @@ import { RouterLink } from 'vue-router'
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/hero-living.jpg" class="d-block w-100 carousel-image" alt="Chalet chaleureux">
+            <img src="/images/chambre.jpg" class="d-block w-100 carousel-image" alt="Chambre d'enfant accueillante">
           </div>
           <div class="carousel-item">
-            <img src="/images/hero-bed.jpg" class="d-block w-100 carousel-image" alt="Entretien espace nuit">
+            <img src="/images/entretient.jpg" class="d-block w-100 carousel-image" alt="Confort et luxe en montagne">
           </div>
           <div class="carousel-item">
-            <img src="/images/hero-food.jpg" class="d-block w-100 carousel-image" alt="Cuisine exotique">
+            <img src="/images/repas3.jpg" class="d-block w-100 carousel-image" alt="Cocktails exotiques et rafraîchissants">
           </div>
           <div class="carousel-item">
-            <img src="/images/hero-basket.jpg" class="d-block w-100 carousel-image" alt="Coffret gourmand">
+            <img src="/images/hero-food.jpg" class="d-block w-100 carousel-image" alt="Poisson grillé aux saveurs authentiques">
           </div>
-          <!-- Nouveau : Poulet Kedjenou -->
           <div class="carousel-item">
-            <img src="/images/poulet.jpg" class="d-block w-100 carousel-image" alt="Poulet Kedjenou savoureux">
+            <img src="/images/hero-bed.jpg" class="d-block w-100 carousel-image" alt="Service de mise en place impeccable">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
@@ -207,7 +206,17 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- 2. Gestion du linge & Lits (R7) -->
+          <!-- 2. Home Staging (R6) -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/service-homestaging.jpg" class="card-img-top" alt="Home staging" style="height: 250px; object-fit: cover;">
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r6.title') }}</h5>
+                <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r6.desc') }}</p>
+              </div>
+            </div>
+          </div>
+          <!-- 3. Gestion du linge & mise en place des lits (R7) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et mise en place des lits" style="height: 250px; object-fit: cover;">
@@ -217,7 +226,7 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- 3. Hygiène irréprochable (R2) -->
+          <!-- 4. Hygiène irréprochable (R2) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/realisation-4-shower.jpg" class="card-img-top" alt="Salle de bain impeccable" style="height: 250px; object-fit: cover;">
@@ -227,7 +236,17 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- 4. Cuisine chez l'habitant (R4) -->
+          <!-- 5. Cuisines impeccables (R3) -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r3.title') }}</h5>
+                <p class="card-text text-muted">{{ $t('realisations.r3.desc') }}</p>
+              </div>
+            </div>
+          </div>
+          <!-- 6. Cuisine chez l'habitant (R4) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/realisation-5-fish.jpg" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 250px; object-fit: cover;">
@@ -238,26 +257,6 @@ import { RouterLink } from 'vue-router'
                   <p class="fst-italic mb-2">{{ $t('realisations.r4.quote1') }}</p>
                   <p class="fst-italic mb-0">{{ $t('realisations.r4.quote2') }}</p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- 5. Home Staging (R6) -->
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/service-homestaging.jpg" class="card-img-top" alt="Home staging" style="height: 250px; object-fit: cover;">
-              <div class="card-body text-center d-flex flex-column">
-                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r6.title') }}</h5>
-                <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r6.desc') }}</p>
-              </div>
-            </div>
-          </div>
-          <!-- 6. Cuisines impeccables (R3) -->
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
-              <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r3.title') }}</h5>
-                <p class="card-text text-muted">{{ $t('realisations.r3.desc') }}</p>
               </div>
             </div>
           </div>

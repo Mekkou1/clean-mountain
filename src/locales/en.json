@@ -26,7 +26,7 @@
     "services": "Our Services",
     "about": "About",
     "eco": "Eco-friendly",
-    "menu": "Angie's Maquis",
+    "menu": "Ange's Maquis",
     "contact": "Contact",
     "quote": "Request a Quote"
   },
@@ -110,9 +110,9 @@
     "benefits_p2": "By trusting Clean Mountain, you contribute directly to the preservation of the unique alpine ecosystems of Châtel and its surroundings."
   },
   "menu": {
-    "hero_title": "ANGIE'S MAQUIS",
+    "hero_title": "ANGE'S MAQUIS",
     "hero_subtitle": "Local flavors, global welcome",
-    "hero_description": "\"The maquis\" is the soul of Ivorian cuisine: a lively, warm, and authentic place where generous dishes are shared in a friendly atmosphere. At Angie's Maquis, the spirit of the maquis rises up and invites itself into the mountains.",
+    "hero_description": "\"The maquis\" is the soul of Ivorian cuisine: a lively, warm, and authentic place where generous dishes are shared in a friendly atmosphere. At Ange's Maquis, the spirit of the maquis rises up and invites itself into the mountains.",
     "title": "Exotic Menus",
     "people_label": "For",
     "people_unit": "people",
@@ -178,7 +178,7 @@
       "r1_name": "Sophie D.",
       "r1_text": "Impeccable service! My chalet has never been so clean. The attention to detail is impressive.",
       "r2_name": "Marc L.",
-      "r2_text": "The Angie's Maquis menu was an incredible discovery. A real culinary journey delivered right to our door.",
+      "r2_text": "The Ange's Maquis menu was an incredible discovery. A real culinary journey delivered right to our door.",
       "r3_name": "Julie V.",
       "r3_text": "Top professionalism and responsiveness for managing my Airbnb rental. I highly recommend!"
     }
@@ -217,10 +217,10 @@
     "select_min_one": "Please select at least one dish."
   },
   "realisations": {
-    "title": "Our Realisations",
+    "title": "Our Actions",
     "subtitle": "Discover our services in pictures",
     "r1": {
-      "title": "Welcoming Chalets",
+      "title": "Harmonious Cleaning",
       "desc": "Perfectly cleaned and cozy living spaces for your stay."
     },
     "r2": {

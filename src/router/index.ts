@@ -50,7 +50,7 @@ const router = createRouter({
       path: '/menu',
       name: 'menu',
       component: () => import('../views/MenuView.vue'),
-      meta: { title: 'Menu Food’Afriq by Angie - Clean Mountain' }
+      meta: { title: "Maquis d'Ange - Clean Mountain" }
     },
   ],
   scrollBehavior(_to, _from, savedPosition) {
