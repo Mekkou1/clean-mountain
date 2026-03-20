@@ -181,6 +181,19 @@
     "gift": "Coffret gourmand",
     "gift_desc": "Sélection de produits savoyards et exotiques"
   },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Votre satisfaction est notre plus belle récompense. Découvrez les avis de ceux qui nous font confiance à Châtel.",
+    "leave_review": "Laisser un avis sur Google",
+    "reviews": {
+      "r1_name": "Sophie D.",
+      "r1_text": "Un service impeccable ! Mon chalet n'a jamais été aussi propre. L'attention aux détails est impressionnante.",
+      "r2_name": "Marc L.",
+      "r2_text": "Le menu Food'Afriq était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
+      "r3_name": "Julie V.",
+      "r3_text": "Professionnalisme et réactivité au top pour la gestion de ma location Airbnb. Je recommande vivement !"
+    }
+  },
   "forms": {
     "status": "Statut du client",
     "select": "Sélectionnez",

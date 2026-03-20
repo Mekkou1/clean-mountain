@@ -169,6 +169,19 @@
     "gift": "Gourmet Gift Set",
     "gift_desc": "Selection of Savoyard and exotic products"
   },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Your satisfaction is our greatest reward. Discover the reviews of those who trust us in Châtel.",
+    "leave_review": "Leave a review on Google",
+    "reviews": {
+      "r1_name": "Sophie D.",
+      "r1_text": "Impeccable service! My chalet has never been so clean. The attention to detail is impressive.",
+      "r2_name": "Marc L.",
+      "r2_text": "The Food'Afriq menu was an incredible discovery. A real culinary journey delivered right to our door.",
+      "r3_name": "Julie V.",
+      "r3_text": "Top professionalism and responsiveness for managing my Airbnb rental. I highly recommend!"
+    }
+  },
   "forms": {
     "status": "Client Status",
     "select": "Select",

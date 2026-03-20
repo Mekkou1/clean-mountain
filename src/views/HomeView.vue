@@ -271,6 +271,84 @@ import { RouterLink } from 'vue-router'
       </div>
     </section>
 
+    <!-- Témoignages -->
+    <section class="py-5 bg-light overflow-hidden">
+      <div class="container py-lg-5">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="text-brand-gold mb-3 text-uppercase fw-bold">{{ $t('testimonials.title') }}</h2>
+            <p class="lead text-muted mx-auto" style="max-width: 700px;">{{ $t('testimonials.subtitle') }}</p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Testimonial 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card bg-white p-4 h-100 shadow-sm rounded-4 position-relative hover-lift-lg">
+              <div class="stars mb-3">
+                <i v-for="i in 5" :key="i" class="fas fa-star" style="color: var(--cm-gold);"></i>
+              </div>
+              <p class="fst-italic text-muted mb-4">"{{ $t('testimonials.reviews.r1_text') }}"</p>
+              <div class="d-flex align-items-center mt-auto">
+                <div class="avatar-circle me-3 d-flex align-items-center justify-content-center bg-brand-green text-white fw-bold">
+                  S
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">{{ $t('testimonials.reviews.r1_name') }}</h6>
+                  <small class="text-muted">Google Review</small>
+                </div>
+                <i class="fab fa-google ms-auto text-muted opacity-50"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card bg-white p-4 h-100 shadow-sm rounded-4 position-relative hover-lift-lg">
+              <div class="stars mb-3">
+                <i v-for="i in 5" :key="i" class="fas fa-star" style="color: var(--cm-gold);"></i>
+              </div>
+              <p class="fst-italic text-muted mb-4">"{{ $t('testimonials.reviews.r2_text') }}"</p>
+              <div class="d-flex align-items-center mt-auto">
+                <div class="avatar-circle me-3 d-flex align-items-center justify-content-center bg-brand-green text-white fw-bold">
+                  M
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">{{ $t('testimonials.reviews.r2_name') }}</h6>
+                  <small class="text-muted">Google Review</small>
+                </div>
+                <i class="fab fa-google ms-auto text-muted opacity-50"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="testimonial-card bg-white p-4 h-100 shadow-sm rounded-4 position-relative hover-lift-lg">
+              <div class="stars mb-3">
+                <i v-for="i in 5" :key="i" class="fas fa-star" style="color: var(--cm-gold);"></i>
+              </div>
+              <p class="fst-italic text-muted mb-4">"{{ $t('testimonials.reviews.r3_text') }}"</p>
+              <div class="d-flex align-items-center mt-auto">
+                <div class="avatar-circle me-3 d-flex align-items-center justify-content-center bg-brand-green text-white fw-bold">
+                  J
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">{{ $t('testimonials.reviews.r3_name') }}</h6>
+                  <small class="text-muted">Google Review</small>
+                </div>
+                <i class="fab fa-google ms-auto text-muted opacity-50"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="https://search.google.com/local/writereview?placeid=OFFER_PLACEID_HERE" target="_blank" class="btn btn-outline-dark px-4 py-2 rounded-pill shadow-sm">
+            <i class="fab fa-google me-2"></i> {{ $t('testimonials.leave_review') }}
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- Appels à l’action -->
     <section class="py-5 text-white position-relative overflow-hidden" style="background: linear-gradient(135deg, var(--cm-green) 0%, #0b4530 100%);">
       <div class="container text-center position-relative z-1">
@@ -380,6 +458,22 @@ import { RouterLink } from 'vue-router'
   }
 }
 
+.testimonial-card {
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.testimonial-card:hover {
+  border-bottom-color: var(--cm-gold);
+}
+
+.avatar-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+}
+
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -389,6 +483,15 @@ import { RouterLink } from 'vue-router'
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
+.hover-lift-lg {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift-lg:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1) !important;
+}
+
 /* Fix text visibility in light background sections */
 .bg-light p {
   color: #555 !important;
@@ -396,10 +499,6 @@ import { RouterLink } from 'vue-router'
 
 .bg-light h5 {
   color: #333 !important;
-}
-
-.bg-light p {
-  color: #555 !important;
 }
 
 .bg-light .text-muted {
