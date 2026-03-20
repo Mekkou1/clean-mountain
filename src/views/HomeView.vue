@@ -193,7 +193,7 @@ import { RouterLink } from 'vue-router'
           </div>
         </div>
         <div class="row g-4 justify-content-center">
-          <!-- Realisation 1 -->
+          <!-- 1. Entretien harmonieux (R1) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/realisation-2-dining.jpg" class="card-img-top" alt="Salle à manger propre et chaleureuse" style="height: 250px; object-fit: cover;">
@@ -203,7 +203,17 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- Realisation 2 -->
+          <!-- 2. Gestion du linge & Lits (R7) -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et lits" style="height: 250px; object-fit: cover;">
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r7.title') }}</h5>
+                <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r7.desc') }}</p>
+              </div>
+            </div>
+          </div>
+          <!-- 3. Hygiène irréprochable (R2) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/realisation-4-shower.jpg" class="card-img-top" alt="Salle de bain impeccable" style="height: 250px; object-fit: cover;">
@@ -213,17 +223,7 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- Realisation 3 -->
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
-              <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r3.title') }}</h5>
-                <p class="card-text text-muted">{{ $t('realisations.r3.desc') }}</p>
-              </div>
-            </div>
-          </div>
-          <!-- Realisation 4 -->
+          <!-- 4. Cuisine chez l'habitant (R4) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/realisation-5-fish.jpg" class="card-img-top" alt="Cuisine gastronomique à domicile" style="height: 250px; object-fit: cover;">
@@ -237,17 +237,7 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- Realisation 5 -->
-          <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/realisation-1-coffret.jpg" class="card-img-top" alt="Joli panier gourmand" style="height: 250px; object-fit: cover;">
-              <div class="card-body text-center">
-                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r5.title') }}</h5>
-                <p class="card-text text-muted">{{ $t('realisations.r5.desc') }}</p>
-              </div>
-            </div>
-          </div>
-          <!-- Realisation 6 -->
+          <!-- 5. Home Staging (R6) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
               <img src="/images/service-homestaging.jpg" class="card-img-top" alt="Home staging" style="height: 250px; object-fit: cover;">
@@ -257,13 +247,23 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
           </div>
-          <!-- Realisation 7 -->
+          <!-- 6. Cuisines impeccables (R3) -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et lits" style="height: 250px; object-fit: cover;">
-              <div class="card-body text-center d-flex flex-column">
-                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r7.title') }}</h5>
-                <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r7.desc') }}</p>
+              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r3.title') }}</h5>
+                <p class="card-text text-muted">{{ $t('realisations.r3.desc') }}</p>
+              </div>
+            </div>
+          </div>
+          <!-- 7. Coffrets gourmands (R5) -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm hover-lift">
+              <img src="/images/realisation-1-coffret.jpg" class="card-img-top" alt="Joli panier gourmand" style="height: 250px; object-fit: cover;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r5.title') }}</h5>
+                <p class="card-text text-muted">{{ $t('realisations.r5.desc') }}</p>
               </div>
             </div>
           </div>
