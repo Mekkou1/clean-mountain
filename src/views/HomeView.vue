@@ -281,7 +281,7 @@ import { RouterLink } from 'vue-router'
           <i class="fas fa-envelope me-2"></i> cleanmountain74@gmail.com
         </p>
         <div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
-          <RouterLink to="/contact" class="btn btn-warning btn-lg px-5 py-3 shadow-lg" style="color: var(--cm-green) !important; font-weight: bold;">{{ $t('cta_bottom.contact') }}</RouterLink>
+          <RouterLink to="/contact" class="btn btn-outline-light btn-lg px-5 py-3 shadow-lg">{{ $t('cta_bottom.contact') }}</RouterLink>
           <RouterLink to="/quote" class="btn btn-outline-light btn-lg px-5 py-3 shadow-lg">{{ $t('cta_bottom.quote') }}</RouterLink>
         </div>
       </div>
