@@ -44,9 +44,6 @@ import { RouterLink } from 'vue-router'
               </div>
             </div>
             <div class="col-lg-5 d-none d-lg-block">
-              <div class="text-center">
-                <i class="fas fa-mountain display-1 text-white opacity-75"></i>
-              </div>
             </div>
           </div>
         </div>
@@ -66,9 +63,6 @@ import { RouterLink } from 'vue-router'
             </div>
           </div>
           <div class="col-lg-5 d-none d-lg-block">
-            <div class="text-center">
-              <i class="fas fa-mountain display-1 text-white opacity-75"></i>
-            </div>
           </div>
         </div>
       </div>
