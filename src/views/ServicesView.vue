@@ -3,7 +3,7 @@
 
     <!-- Bannière hero Services -->
     <section class="position-relative mb-5" style="height: 280px; overflow: hidden;">
-      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1400&h=400&fit=crop" alt="Nettoyage professionnel Clean Mountain" class="w-100 h-100" style="object-fit: cover; filter: brightness(0.55);">
+      <img src="/images/service baniere.jpg" alt="Nettoyage professionnel Clean Mountain" class="w-100 h-100" style="object-fit: cover; filter: brightness(0.55);">
       <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
         <h1 class="text-white display-5 fw-bold mb-2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">{{ $t('services.page.title') }}</h1>
         <p class="lead" style="font-style: italic; color: var(--cm-gold);">{{ $t('services.page.subtitle') }}</p>
@@ -15,7 +15,7 @@
         <!-- ENTRETIEN ÉCOLOGIQUE -->
         <div class="col-lg-4">
           <div class="card h-100 border-0 shadow-sm" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-            <img src="/images/entretient.jpg" class="card-img-top" alt="Entretien écologique de chalet" style="height: 200px; object-fit: cover;">
+            <img src="/images/entretien eco2.jpg" class="card-img-top" alt="Entretien écologique de chalet" style="height: 200px; object-fit: cover;">
             <div class="card-body">
               <div class="text-center mb-4">
                 <h3 class="text-brand-green text-uppercase fw-bold">{{ $t('services.maintenance.title') }}</h3>

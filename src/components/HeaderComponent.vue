@@ -34,7 +34,7 @@
             <RouterLink class="nav-link" to="/eco" @click="closeMenu">{{ $t('nav.eco') }}</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/menu" @click="closeMenu">Food'Afriq</RouterLink>
+            <RouterLink class="nav-link" to="/menu" @click="closeMenu">{{ $t('nav.menu') }}</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to="/contact" @click="closeMenu">{{ $t('nav.contact') }}</RouterLink>

@@ -20,6 +20,10 @@ import { RouterLink } from 'vue-router'
           <div class="carousel-item">
             <img src="/images/hero-basket.jpg" class="d-block w-100 carousel-image" alt="Coffret gourmand">
           </div>
+          <!-- Nouveau : Poulet Kedjenou -->
+          <div class="carousel-item">
+            <img src="/images/poulet.jpg" class="d-block w-100 carousel-image" alt="Poulet Kedjenou savoureux">
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -133,7 +137,7 @@ import { RouterLink } from 'vue-router'
           <!-- Entretien écologique -->
           <div class="col-md-4">
             <div class="card h-100 border-0 shadow-lg hover-lift" style="border-top: 4px solid var(--cm-gold) !important; overflow: hidden;">
-              <img src="/images/entretient.jpg" class="card-img-top" alt="Entretien écologique de chalet" style="height: 180px; object-fit: cover;">
+              <img src="/images/entretien eco2.jpg" class="card-img-top" alt="Entretien écologique de chalet" style="height: 180px; object-fit: cover;">
               <div class="card-body text-center p-4">
                 <h5 class="card-title text-brand-green fw-bold mb-4 text-uppercase">{{ $t('services.maintenance.title') }}</h5>
                 <ul class="list-unstyled text-start text-muted mb-0 fs-6">

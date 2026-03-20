@@ -1,11 +1,12 @@
 <template>
   <main class="menu-page">
     <!-- Bannière hero Menu -->
-    <section class="position-relative mb-5" style="height: 280px; overflow: hidden;">
+    <section class="position-relative mb-5" style="height: 350px; overflow: hidden;">
       <img src="/images/service-cuisine.jpg" alt="Cuisine exotique" class="w-100 h-100" style="object-fit: cover; filter: brightness(0.55);">
       <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100 px-3">
         <h1 class="text-white display-5 fw-bold mb-2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.7);">{{ $t('menu.hero_title') }}</h1>
-        <p class="lead" style="font-style: italic; color: var(--cm-gold);">{{ $t('menu.hero_subtitle') }}</p>
+        <p class="lead mb-2" style="font-style: italic; color: var(--cm-gold); font-weight: 500;">{{ $t('menu.hero_subtitle') }}</p>
+        <p class="mx-auto text-white mt-3" style="max-width: 800px; font-size: 1.1rem; line-height: 1.6; text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">{{ $t('menu.hero_description') }}</p>
       </div>
     </section>
 
@@ -335,7 +336,7 @@ export default {
         const PUBLIC_KEY = 'RsJxaN0Y-HqGYf9Tz';
 
         const formData = {
-          titreEmail: "Nouvelle Commande Food'Afriq",
+          titreEmail: "Nouvelle Commande - Maquis d'Angie",
           labelPrestation: "Plats sélectionnés",
           typePrestation: this.orderForm.choixMenu.join(', '),
           labelSecondaire: "Nb. de personnes",

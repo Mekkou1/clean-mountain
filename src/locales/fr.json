@@ -26,7 +26,7 @@
     "services": "Nos Services",
     "about": "À Propos",
     "eco": "Éco-responsable",
-    "menu": "Menu Food'Afriq",
+    "menu": "Maquis d'Angie",
     "contact": "Contact",
     "quote": "Demander un devis"
   },
@@ -75,18 +75,18 @@
     "intro_title": "À propos",
     "intro_text": "Clean Mountain est née de la passion pour les Alpes et du désir d'offrir des services de nettoyage de qualité supérieure adaptés aux exigences uniques de la vie en montagne.",
     "history_title": "Notre histoire",
-    "history_p1": "Fondée à Châtel, notre entreprise s'est rapidement imposée comme la référence en matière de nettoyage professionnel dans la région. Avec des années d'expérience, nous comprenons les défis uniques du nettoyage en milieu alpin.",
-    "history_p2": "Notre équipe est composée de professionnels passionnés qui connaissent parfaitement les conditions climatiques et les besoins spécifiques de nos clients en montagne.",
+    "history_p1": "Clean Mountain &Co se veut être une référence du nettoyage professionnel à Châtel et ses environs, alliant efficacité, confort et respect de l’environnement.",
+    "history_p2": "Nous proposons un package sur mesure regroupant entretien des locaux, repas chez l’habitant et coffrets gourmands, mariant subtilement tradition savoyarde et saveurs exotiques. Conscients de la pureté de la montagne, nous utilisons uniquement du matériel écologique, respectueux de la santé et de l’environnement dans lequel nous vivons..",
     "zone_title": "Zone d'intervention",
     "zone_text": "Nous intervenons principalement dans les communes suivantes :",
     "zone_p2": "Notre connaissance approfondie du terrain et des conditions climatiques locales nous permet d'adapter nos services aux particularités de chaque saison. Que ce soit en hiver avec la neige ou en été avec la poussière des pistes, nous sommes équipés pour répondre à tous vos besoins.",
-    "values_title": "Nos valeurs fondamentales",
-    "v1_title": "Qualité irréprochable",
-    "v1_text": "Chaque intervention est réalisée avec la plus grande rigueur et une attention particulière portée aux détails. Nous ne laissons rien au hasard.",
-    "v2_title": "Respect de l'environnement",
-    "v2_text": "Nous privilégions des méthodes et produits respectueux de la nature alpine, contribuant à préserver la beauté de nos montagnes.",
-    "v3_title": "Confiance et professionnalisme",
-    "v3_text": "Notre équipe qualifiée garantit un service fiable et discret en toutes circonstances, pour votre tranquillité d'esprit."
+    "values_title": "Valeurs fondamentales.",
+    "v1_title": "Qualité irréprochable – Rigueur et attention aux moindres détails, rien n’est laissé au hasard.",
+    "v1_text": "",
+    "v2_title": "Respect de l’environnement – Méthodes et produits respectueux de la nature alpine.",
+    "v2_text": "",
+    "v3_title": "Confiance et professionnalisme – Fiabilité et discrétion pour votre tranquillité.",
+    "v3_text": ""
   },
   "eco": {
     "hero": "NOTRE ENGAGEMENT ÉCOLOGIQUE",
@@ -106,12 +106,13 @@
       "Emballages recyclables"
     ],
     "benefits_title": "Bénéfices pour nos clients et la nature",
-    "benefits_p1": "Notre approche écologique garantit des espaces sains et respectueux de l'environnement alpin, tout en préservant la qualité de vie en montagne.",
-    "benefits_p2": "En choisissant Clean Mountain, vous contribuez directement à la préservation des écosystèmes alpins uniques de la région de Châtel."
+    "benefits_p1": "Grâce à une approche écologique, nous garantissons des espaces sains et respectueux de l’environnement alpin, tout en préservant la qualité de vie en montagne.",
+    "benefits_p2": "En faisant confiance à Clean Mountain, vous contribuez directement à la préservation des écosystèmes alpins uniques de Châtel et de ses environs."
   },
   "menu": {
-    "hero_title": "Food’Afriq by Angie",
+    "hero_title": "LE MAQUIS D'ANGIE",
     "hero_subtitle": "Saveurs d’ici, accueil d’ailleurs",
+    "hero_description": "\"Le maquis\", c’est l’âme de la cuisine ivoirienne : un lieu vivant, chaleureux et authentique, où l’on partage des plats généreux dans une ambiance conviviale. Chez Maquis d'Angie, le maquis prend de la hauteur et s’invite en montagne.",
     "title": "Menus Exotiques",
     "people_label": "Pour",
     "people_unit": "personnes",
@@ -189,7 +190,7 @@
       "r1_name": "Sophie D.",
       "r1_text": "Un service impeccable ! Mon chalet n'a jamais été aussi propre. L'attention aux détails est impressionnante.",
       "r2_name": "Marc L.",
-      "r2_text": "Le menu Food'Afriq était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
+      "r2_text": "Le menu du Maquis d'Angie était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
       "r3_name": "Julie V.",
       "r3_text": "Professionnalisme et réactivité au top pour la gestion de ma location Airbnb. Je recommande vivement !"
     }

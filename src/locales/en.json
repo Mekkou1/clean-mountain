@@ -26,7 +26,7 @@
     "services": "Our Services",
     "about": "About",
     "eco": "Eco-friendly",
-    "menu": "Food'Afriq Menu",
+    "menu": "Angie's Maquis",
     "contact": "Contact",
     "quote": "Request a Quote"
   },
@@ -75,18 +75,18 @@
     "intro_title": "About",
     "intro_text": "Clean Mountain was born from a passion for the Alps and a desire to offer superior quality cleaning services adapted to the unique requirements of mountain life.",
     "history_title": "Our History",
-    "history_p1": "Founded in Châtel, our company quickly established itself as the reference for professional cleaning in the region. With years of experience, we understand the unique challenges of cleaning in an alpine environment.",
-    "history_p2": "Our team consists of passionate professionals who perfectly know the weather conditions and specific needs of our mountain clients.",
+    "history_p1": "Clean Mountain &Co aims to be a benchmark for professional cleaning in Châtel and its surroundings, combining efficiency, comfort, and respect for the environment.",
+    "history_p2": "We offer a tailor-made package including premises maintenance, home-cooked meals, and gourmet gift sets, subtly marrying Savoyard tradition and exotic flavors. Aware of the mountain's purity, we use only ecological equipment, respectful of health and the environment in which we live.",
     "zone_title": "Service Area",
     "zone_text": "We primarily serve the following municipalities:",
     "zone_p2": "Our deep knowledge of the terrain and local weather conditions allows us to adapt our services to the specificities of each season. Whether in winter with snow or in summer with trail dust, we are equipped to meet all your needs.",
-    "values_title": "Our Core Values",
-    "v1_title": "Impeccable Quality",
-    "v1_text": "Every intervention is carried out with the utmost rigor and special attention to detail. We leave nothing to chance.",
-    "v2_title": "Environmental Respect",
-    "v2_text": "We prioritize methods and products that respect alpine nature, helping to preserve the beauty of our mountains.",
-    "v3_title": "Trust and Professionalism",
-    "v3_text": "Our qualified team guarantees a reliable and discreet service under all circumstances, for your peace of mind."
+    "values_title": "Core Values.",
+    "v1_title": "Irreproachable Quality – Rigor and attention to the smallest details, nothing is left to chance.",
+    "v1_text": "",
+    "v2_title": "Environmental Respect – Methods and products that respect alpine nature.",
+    "v2_text": "",
+    "v3_title": "Trust and Professionalism – Reliability and discretion for your peace of mind.",
+    "v3_text": ""
   },
   "eco": {
     "hero": "OUR ECOLOGICAL COMMITMENT",
@@ -106,12 +106,13 @@
       "Recyclable packaging"
     ],
     "benefits_title": "Benefits for our Clients and Nature",
-    "benefits_p1": "Our ecological approach guarantees healthy spaces that respect the alpine environment, while preserving the quality of mountain life.",
-    "benefits_p2": "By choosing Clean Mountain, you directly contribute to the preservation of the unique alpine ecosystems in the Châtel region."
+    "benefits_p1": "Thanks to an eco-friendly approach, we guarantee healthy spaces that respect the alpine environment, while preserving the quality of life in the mountains.",
+    "benefits_p2": "By trusting Clean Mountain, you contribute directly to the preservation of the unique alpine ecosystems of Châtel and its surroundings."
   },
   "menu": {
-    "hero_title": "Food’Afriq by Angie",
+    "hero_title": "ANGIE'S MAQUIS",
     "hero_subtitle": "Local flavors, global welcome",
+    "hero_description": "\"The maquis\" is the soul of Ivorian cuisine: a lively, warm, and authentic place where generous dishes are shared in a friendly atmosphere. At Angie's Maquis, the spirit of the maquis rises up and invites itself into the mountains.",
     "title": "Exotic Menus",
     "people_label": "For",
     "people_unit": "people",
@@ -177,7 +178,7 @@
       "r1_name": "Sophie D.",
       "r1_text": "Impeccable service! My chalet has never been so clean. The attention to detail is impressive.",
       "r2_name": "Marc L.",
-      "r2_text": "The Food'Afriq menu was an incredible discovery. A real culinary journey delivered right to our door.",
+      "r2_text": "The Angie's Maquis menu was an incredible discovery. A real culinary journey delivered right to our door.",
       "r3_name": "Julie V.",
       "r3_text": "Top professionalism and responsiveness for managing my Airbnb rental. I highly recommend!"
     }
