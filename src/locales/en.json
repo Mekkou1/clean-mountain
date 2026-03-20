@@ -1,0 +1,245 @@
+{
+  "about_home": {
+    "title": "About Clean Mountain & CO",
+    "intro": "At the heart of the Alps, CLEAN MOUNTAIN & CO supports you with tailored services in Châtel, La Chapelle-d'Abondance and Abondance.",
+    "li1": "Chalets and apartments",
+    "li2": "Seasonal rentals & Airbnb",
+    "li3": "Private homes",
+    "li4": "Professional premises",
+    "personal": "As a self-employed professional, I offer you a personalized, reliable and responsive service, with real attention to detail, to provide a unique and memorable experience for your guests or clients.",
+    "v1_title": "Quality",
+    "v1_text": "Professional service and attention to detail",
+    "v2_title": "Eco-friendly",
+    "v2_text": "Products and methods that respect the environment",
+    "v3_title": "Professionalism",
+    "v3_text": "Experienced and reliable team",
+    "all_services": "View all our services"
+  },
+  "footer": {
+    "tagline": "Premium services for chalets and seasonal rentals",
+    "links_title": "Useful Links",
+    "legal": "Legal Notice",
+    "copyright": "© 2024 Clean Mountain. All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Our Services",
+    "about": "About",
+    "eco": "Eco-friendly",
+    "menu": "Food'Afriq Menu",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  },
+  "hero": {
+    "title": "Impeccable, naturally.",
+    "subtitle": "Maintenance service / Home cooking & gourmet gift sets.",
+    "cta_services": "Our services",
+    "cta_quote": "Get a quote"
+  },
+  "services": {
+    "title": "Our Key Services",
+    "description": "Discover our services adapted to mountain life",
+    "maintenance": {
+      "title": "Eco-friendly Maintenance",
+      "p1": "Deep cleaning and meticulous finish",
+      "p2": "Linen management & bed setup",
+      "p3": "Complete preparation between each stay",
+      "p4": "Environmentally friendly products"
+    },
+    "cooking": {
+      "title": "Home Cooking",
+      "p1": "Refined cuisine inspired by exotic flavors",
+      "p2": "Vegetarian option available",
+      "p3": "For 2 to 10 people (and more)",
+      "p4": "Kitchen cleaning after service",
+      "btn": "View Menu"
+    },
+    "gift": {
+      "title": "Gourmet Gift Set",
+      "p1": "Savoyard traditions",
+      "p2": "Exotic sweets",
+      "p3": "Handcrafted wood carvings",
+      "p4": "Customizable presentation"
+    },
+    "page": {
+      "title": "Our Services",
+      "subtitle": "Complete expertise for your mountain comfort",
+      "maintenance_desc": "A healthy and sparkling interior with 100% ecological products.",
+      "cooking_desc": "A unique culinary experience directly in your kitchen.",
+      "gift_desc": "Delicate attentions for your guests or yourself."
+    }
+  },
+  "about": {
+    "hero": "ABOUT CLEAN MOUNTAIN & CO",
+    "tagline": "Impeccable, naturally.",
+    "intro_title": "About",
+    "intro_text": "Clean Mountain was born from a passion for the Alps and a desire to offer superior quality cleaning services adapted to the unique requirements of mountain life.",
+    "history_title": "Our History",
+    "history_p1": "Founded in Châtel, our company quickly established itself as the reference for professional cleaning in the region. With years of experience, we understand the unique challenges of cleaning in an alpine environment.",
+    "history_p2": "Our team consists of passionate professionals who perfectly know the weather conditions and specific needs of our mountain clients.",
+    "zone_title": "Service Area",
+    "zone_text": "We primarily serve the following municipalities:",
+    "zone_p2": "Our deep knowledge of the terrain and local weather conditions allows us to adapt our services to the specificities of each season. Whether in winter with snow or in summer with trail dust, we are equipped to meet all your needs.",
+    "values_title": "Our Core Values",
+    "v1_title": "Impeccable Quality",
+    "v1_text": "Every intervention is carried out with the utmost rigor and special attention to detail. We leave nothing to chance.",
+    "v2_title": "Environmental Respect",
+    "v2_text": "We prioritize methods and products that respect alpine nature, helping to preserve the beauty of our mountains.",
+    "v3_title": "Trust and Professionalism",
+    "v3_text": "Our qualified team guarantees a reliable and discreet service under all circumstances, for your peace of mind."
+  },
+  "eco": {
+    "hero": "OUR ECOLOGICAL COMMITMENT",
+    "subtitle": "Clean Mountain is committed to cleaning that respects the alpine environment.",
+    "methods_title": "Environmentally Friendly Methods",
+    "methods": [
+      "Use of biodegradable products",
+      "Low impact cleaning techniques",
+      "Waste reduction and recycling",
+      "Water and energy saving"
+    ],
+    "products_title": "Products Used",
+    "products": [
+      "Certified ecological detergents",
+      "Toxin-free products",
+      "Reusable materials",
+      "Recyclable packaging"
+    ],
+    "benefits_title": "Benefits for our Clients and Nature",
+    "benefits_p1": "Our ecological approach guarantees healthy spaces that respect the alpine environment, while preserving the quality of mountain life.",
+    "benefits_p2": "By choosing Clean Mountain, you directly contribute to the preservation of the unique alpine ecosystems in the Châtel region."
+  },
+  "menu": {
+    "hero_title": "Food’Afriq by Angie",
+    "hero_subtitle": "Local flavors, global welcome",
+    "title": "Exotic Menus",
+    "people_label": "For",
+    "people_unit": "people",
+    "subtitle": "Fresh ingredients, refined and tasty recipes",
+    "cat_starters": "Exotic Starters & Salads",
+    "starter_name": "Fresh salads with exotic accents",
+    "starter_desc": "A light and fragrant mix, ideal for awakening the taste buds",
+    "cat_signature": "Signature Dishes",
+    "p1_name": "Vegetable lasagna with coconut curry",
+    "p1_desc": "Refined alliance of vegetables and exotic fragrances",
+    "p2_name": "Free-range chicken with \"Kedjenou\" vegetables",
+    "p2_desc": "Slow-cooked for intense flavor",
+    "p3_name": "Melting eggplant stew with beef or free-range chicken",
+    "p3_desc": "Incomparable richness and creaminess",
+    "p4_name": "Country Mafé \"peanut sauce\" with beef or free-range chicken",
+    "p4_desc": "Explosion of authentic flavors",
+    "p5_name": "Exotic Ivorian grills and its rougaille",
+    "p5_desc": "Festival of flavors and barbecue indulgence",
+    "cat_sides": "Side Dishes",
+    "sides": [
+      "Fragrant pilaf rice or delicate coconut rice",
+      "Golden or steamed plantain banana",
+      "Steamed or roasted sweet potato",
+      "Fine and light cassava semolina (attiéké)"
+    ],
+    "cat_drinks": "Homemade Drinks & Exotic Cocktails",
+    "drinks": [
+      "Hibiscus nectar",
+      "Ginger-pineapple nectar",
+      "Exotic cocktail"
+    ],
+    "ps_veggie": "All our dishes can be adapted for vegetarians",
+    "ps_spices": "Mild spices, spicy version available on request.",
+    "btn_order": "Order",
+    "order_title": "Order Form",
+    "order_desc": "Finalize your order. We will contact you quickly to confirm details."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "info_title": "Our Contact Info",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again later."
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Free and personalized quote within 24h",
+    "form_intro": "Fill in this form to get a personalized quote for your needs.",
+    "why_us": "Why choose us?",
+    "arg1": "Response within 24h",
+    "arg2": "Free & non-binding quote",
+    "arg3": "Certified ecological products",
+    "arg4": "High-end service",
+    "maintenance": "Chalet maintenance / cleaning",
+    "maintenance_desc": "Before/during/after stay maintenance, window cleaning...",
+    "gift": "Gourmet Gift Set",
+    "gift_desc": "Selection of Savoyard and exotic products"
+  },
+  "forms": {
+    "status": "Client Status",
+    "select": "Select",
+    "individual": "Individual",
+    "company": "Company",
+    "company_name": "Company Name",
+    "name": "Last Name",
+    "firstname": "First Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send",
+    "submit_order": "Send Order",
+    "address": "Full Address (for service)",
+    "comments": "Specific Requests (Vegetarian options, mild/spicy, allergies...)",
+    "date": "Service / Delivery Date",
+    "people_count": "Number of People",
+    "people": "people",
+    "more_people": "More (specify in comments)",
+    "menu_choice": "Selected dish(es)",
+    "ctrl_click": "(Hold Ctrl/Cmd for multiple selection)",
+    "frequency": "Desired frequency",
+    "freq_daily": "Daily",
+    "freq_weekly": "Weekly",
+    "freq_bimonthly": "Bi-monthly",
+    "freq_monthly": "Monthly",
+    "freq_once": "One-time",
+    "prestation_type": "Type of service",
+    "start_date": "Desired start date",
+    "item_selected": "dish selected",
+    "items_selected": "dishes selected",
+    "select_min_one": "Please select at least one dish."
+  },
+  "realisations": {
+    "title": "Our Realisations",
+    "subtitle": "Discover our services in pictures",
+    "r1": {
+      "title": "Welcoming Chalets",
+      "desc": "Perfectly cleaned and cozy living spaces for your stay."
+    },
+    "r2": {
+      "title": "Irreproachable Hygiene",
+      "desc": "Deep cleaning of bathroom areas."
+    },
+    "r3": {
+      "title": "Impeccable Kitchens",
+      "desc": "Meticulous maintenance of your equipment and dining areas."
+    },
+    "r4": {
+      "title": "Home Cooking",
+      "desc": "Clean Mountain & Co brings exotic family cuisine directly to your home. Homemade, flavorful dishes prepared with fresh products for shared convivial meals.",
+      "quote1": "\"Authentic and surprising: discover the marriage of artisan Savoyard and exotic delights.\"",
+      "quote2": "\"Traditional dishes, rich sauces and a convivial atmosphere: a true gastronomic journey.\""
+    },
+    "r5": {
+      "title": "Gourmet Gift Sets",
+      "desc": "Savoyard traditions and delicacies prepared to order."
+    },
+    "r6": {
+      "title": "Home Staging",
+      "desc": "Home staging enhances your home. Clean Mountain & Co combines professional cleaning, careful layout, and interior decoration designed to charm and seduce every visitor."
+    },
+    "r7": {
+      "title": "Linen & Bed Setup",
+      "desc": "Special attention to comfort: full home linen management and careful bed setup for professional hosting."
+    }
+  },
+  "cta_bottom": {
+    "title": "Ready to entrust us with your space?",
+    "subtitle": "Contact us for a personalized quote and find peace of mind.",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  }
+}

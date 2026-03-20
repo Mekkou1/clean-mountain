@@ -46,7 +46,21 @@ const router = createRouter({
       component: () => import('../views/LegalView.vue'),
       meta: { title: 'Mentions légales - Clean Mountain' }
     },
+    {
+      path: '/menu',
+      name: 'menu',
+      component: () => import('../views/MenuView.vue'),
+      meta: { title: 'Menu Food’Afriq by Angie - Clean Mountain' }
+    },
   ],
+  scrollBehavior(_to, _from, savedPosition) {
+    // Si l'utilisateur utilise les boutons Précédent/Suivant du navigateur,
+    // on restaure la position sauvegardée. Sinon, on remonte tout en haut.
+    if (savedPosition) {
+      return savedPosition
+    }
+    return { top: 0, left: 0, behavior: 'smooth' }
+  }
 })
 
 export default router

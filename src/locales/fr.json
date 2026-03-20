@@ -1,0 +1,257 @@
+{
+  "about_home": {
+    "title": "À propos de Clean Mountain & CO",
+    "intro": "Au cœur des Alpes, CLEAN MOUNTAIN & CO vous accompagne avec des prestations sur mesure à Châtel, La Chapelle-d'Abondance et Abondance.",
+    "li1": "Chalets et appartements",
+    "li2": "Locations saisonnières & Airbnb",
+    "li3": "Logements privés",
+    "li4": "Locaux professionnels",
+    "personal": "En tant qu'auto-entrepreneur, je vous offre un service personnalisé, fiable et réactif, avec un réel souci du détail, afin d'offrir une expérience unique et mémorable à vos invités ou clients.",
+    "v1_title": "Qualité",
+    "v1_text": "Service professionnel et attention aux détails",
+    "v2_title": "Écologique",
+    "v2_text": "Produits et méthodes respectueuses de l'environnement",
+    "v3_title": "Professionnalisme",
+    "v3_text": "Équipe expérimentée et fiable",
+    "all_services": "Voir tous nos services"
+  },
+  "footer": {
+    "tagline": "Services premium pour chalets et locations saisonnières",
+    "links_title": "Liens utiles",
+    "legal": "Mentions légales",
+    "copyright": "© 2024 Clean Mountain. Tous droits réservés."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Nos Services",
+    "about": "À Propos",
+    "eco": "Éco-responsable",
+    "menu": "Menu Food'Afriq",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "hero": {
+    "title": "Impeccable, naturellement.",
+    "subtitle": "Service d'entretien / Cuisine chez l'habitant & Coffrets gourmands.",
+    "cta_services": "Nos services",
+    "cta_quote": "Demande de devis"
+  },
+  "services": {
+    "title": "Nos Services Phares",
+    "description": "Découvrez nos prestations adaptées à la vie en montagne",
+    "maintenance": {
+      "title": "Entretien écologique",
+      "p1": "Nettoyage approfondi et finitions soignées",
+      "p2": "Gestion du linge & mise en place des lits",
+      "p3": "Préparation complète entre chaque séjour",
+      "p4": "Produits respectueux de l'environnement"
+    },
+    "cooking": {
+      "title": "Cuisine chez l'habitant",
+      "p1": "Cuisine raffinée aux inspirations exotiques",
+      "p2": "Option végétarienne disponible",
+      "p3": "Pour 2 à 10 personnes (et plus)",
+      "p4": "Nettoyage de la cuisine après prestation",
+      "btn": "Voir menu"
+    },
+    "gift": {
+      "title": "Coffret gourmand",
+      "p1": "Traditions savoyardes",
+      "p2": "Douceurs exotiques",
+      "p3": "Objets d'art sculptés sur bois",
+      "p4": "Présentation personnalisable"
+    },
+    "page": {
+      "title": "Nos Services",
+      "subtitle": "Une expertise complète pour votre confort en montagne",
+      "maintenance_desc": "Un intérieur sain et étincelant avec des produits 100% écologiques.",
+      "cooking_desc": "Une expérience culinaire unique directement dans votre cuisine.",
+      "gift_desc": "Des attentions délicates pour vos invités ou pour vous-même."
+    }
+  },
+  "about": {
+    "hero": "À PROPOS DE CLEAN MOUNTAIN & CO",
+    "tagline": "Impeccable, naturellement.",
+    "intro_title": "À propos",
+    "intro_text": "Clean Mountain est née de la passion pour les Alpes et du désir d'offrir des services de nettoyage de qualité supérieure adaptés aux exigences uniques de la vie en montagne.",
+    "history_title": "Notre histoire",
+    "history_p1": "Fondée à Châtel, notre entreprise s'est rapidement imposée comme la référence en matière de nettoyage professionnel dans la région. Avec des années d'expérience, nous comprenons les défis uniques du nettoyage en milieu alpin.",
+    "history_p2": "Notre équipe est composée de professionnels passionnés qui connaissent parfaitement les conditions climatiques et les besoins spécifiques de nos clients en montagne.",
+    "zone_title": "Zone d'intervention",
+    "zone_text": "Nous intervenons principalement dans les communes suivantes :",
+    "zone_p2": "Notre connaissance approfondie du terrain et des conditions climatiques locales nous permet d'adapter nos services aux particularités de chaque saison. Que ce soit en hiver avec la neige ou en été avec la poussière des pistes, nous sommes équipés pour répondre à tous vos besoins.",
+    "values_title": "Nos valeurs fondamentales",
+    "v1_title": "Qualité irréprochable",
+    "v1_text": "Chaque intervention est réalisée avec la plus grande rigueur et une attention particulière portée aux détails. Nous ne laissons rien au hasard.",
+    "v2_title": "Respect de l'environnement",
+    "v2_text": "Nous privilégions des méthodes et produits respectueux de la nature alpine, contribuant à préserver la beauté de nos montagnes.",
+    "v3_title": "Confiance et professionnalisme",
+    "v3_text": "Notre équipe qualifiée garantit un service fiable et discret en toutes circonstances, pour votre tranquillité d'esprit."
+  },
+  "eco": {
+    "hero": "NOTRE ENGAGEMENT ÉCOLOGIQUE",
+    "subtitle": "Clean Mountain s'engage pour un nettoyage respectueux de l'environnement alpin.",
+    "methods_title": "Méthodes respectueuses de l'environnement",
+    "methods": [
+      "Utilisation de produits biodégradables",
+      "Techniques de nettoyage à faible impact",
+      "Réduction des déchets et recyclage",
+      "Économie d'eau et d'énergie"
+    ],
+    "products_title": "Produits utilisés",
+    "products": [
+      "Détergents écologiques certifiés",
+      "Produits sans substances toxiques",
+      "Matériels réutilisables",
+      "Emballages recyclables"
+    ],
+    "benefits_title": "Bénéfices pour nos clients et la nature",
+    "benefits_p1": "Notre approche écologique garantit des espaces sains et respectueux de l'environnement alpin, tout en préservant la qualité de vie en montagne.",
+    "benefits_p2": "En choisissant Clean Mountain, vous contribuez directement à la préservation des écosystèmes alpins uniques de la région de Châtel."
+  },
+  "menu": {
+    "hero_title": "Food’Afriq by Angie",
+    "hero_subtitle": "Saveurs d’ici, accueil d’ailleurs",
+    "title": "Menus Exotiques",
+    "people_label": "Pour",
+    "people_unit": "personnes",
+    "subtitle": "Ingrédients frais, recettes raffinées et savoureuses",
+    "cat_starters": "Entrées & Salades Exotiques",
+    "starter_name": "Salades fraîcheur aux accents exotiques",
+    "starter_desc": "Un mélange léger et parfumé, idéal pour éveiller les papilles",
+    "cat_signature": "Plats Signature",
+    "p1_name": "Lasagne de légumes au curry coco",
+    "p1_desc": "Alliance raffinée de légumes et parfums exotiques",
+    "p2_name": "Poulet fermier aux légumes \"Kedjenou\"",
+    "p2_desc": "Mijoté lentement pour un goût intense",
+    "p3_name": "Ragoût d’aubergines fondant à la viande de bœuf ou au poulet fermier",
+    "p3_desc": "Richesse et onctuosité incomparable",
+    "p4_name": "Mafé du terroir \"sauce cacahuète\" au bœuf ou poulet fermier",
+    "p4_desc": "Explosion de saveurs authentiques",
+    "p5_name": "Grillades exotiques à l’ivoirienne et sa rougaille",
+    "p5_desc": "Festival de saveurs et gourmandise barbecue",
+    "cat_sides": "Accompagnements",
+    "sides": [
+      "Riz pilaf parfumé ou riz coco délicat",
+      "Banane plantain dorée ou vapeur",
+      "Patate douce vapeur ou rôtie",
+      "Semoule de manioc (attiéké) fine et légère"
+    ],
+    "cat_drinks": "Boissons Maison & Cocktails Exotiques",
+    "drinks": [
+      "Nectar d’hibiscus",
+      "Nectar gingembre-ananas",
+      "Cocktail exotique"
+    ],
+    "ps_veggie": "Tous nos plats peuvent être adaptés aux végétariens",
+    "ps_spices": "Épices douces, possibilité de version relevée sur demande.",
+    "btn_order": "Commander",
+    "order_title": "Formulaire de Commande",
+    "order_desc": "Finalisez votre commande. Nous vous recontacterons rapidement pour confirmer les détails.",
+    "opt_eggplant_beef": "Ragoût d'aubergines au bœuf",
+    "opt_eggplant_chicken": "Ragoût d'aubergines au poulet",
+    "opt_mafe_beef": "Mafé sauce cacahuète au bœuf",
+    "opt_mafe_chicken": "Mafé sauce cacahuète au poulet",
+    "opt_rice_pilaf": "Riz pilaf parfumé",
+    "opt_rice_coco": "Riz coco délicat",
+    "opt_plantain": "Banane plantain dorée ou vapeur",
+    "opt_sweet_potato": "Patate douce vapeur ou rôtie",
+    "opt_attieke": "Semoule de manioc (attiéké)",
+    "opt_hibiscus": "Nectar d'hibiscus",
+    "opt_ginger": "Nectar gingembre-ananas",
+    "opt_cocktail": "Cocktail exotique"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "info_title": "Nos coordonnées",
+    "success": "Message envoyé avec succès!",
+    "error": "Une erreur est survenue. Veuillez réessayer plus tard."
+  },
+  "quote": {
+    "title": "Demande de Devis",
+    "subtitle": "Un devis gratuit et personnalisé sous 24h",
+    "form_intro": "Remplissez ce formulaire pour obtenir un devis personnalisé pour vos besoins.",
+    "why_us": "Pourquoi nous choisir ?",
+    "arg1": "Réponse sous 24h",
+    "arg2": "Devis gratuit & sans engagement",
+    "arg3": "Produits écologiques certifiés",
+    "arg4": "Service haut de gamme",
+    "maintenance": "Entretien de chalet / nettoyage",
+    "maintenance_desc": "Entretien avant/pendant/après séjour, nettoyage vitres...",
+    "gift": "Coffret gourmand",
+    "gift_desc": "Sélection de produits savoyards et exotiques"
+  },
+  "forms": {
+    "status": "Statut du client",
+    "select": "Sélectionnez",
+    "individual": "Particulier",
+    "company": "Entreprise",
+    "company_name": "Nom de l'entreprise",
+    "name": "Nom",
+    "firstname": "Prénom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "send": "Envoyer",
+    "submit_order": "Envoyer la commande",
+    "address": "Adresse complète (pour prestation)",
+    "comments": "Demandes spécifiques (Options végétariennes, épices douces/relevées, allergies...)",
+    "date": "Date de prestation / livraison",
+    "people_count": "Nombre de personnes",
+    "people": "personnes",
+    "more_people": "Plus (préciser en commentaire)",
+    "menu_choice": "Plat(s) sélectionné(s)",
+    "ctrl_click": "(Maintenez Ctrl/Cmd pour une sélection multiple)",
+    "frequency": "Fréquence souhaitée",
+    "freq_daily": "Quotidien",
+    "freq_weekly": "Hebdomadaire",
+    "freq_bimonthly": "Bi-mensuel",
+    "freq_monthly": "Mensuel",
+    "freq_once": "Ponctuel",
+    "prestation_type": "Type de prestation",
+    "start_date": "Date de début souhaitée",
+    "item_selected": "plat sélectionné",
+    "items_selected": "plats sélectionnés",
+    "select_min_one": "Veuillez sélectionner au moins un plat."
+  },
+  "realisations": {
+    "title": "Nos Réalisations",
+    "subtitle": "Découvrez nos prestations en images",
+    "r1": {
+      "title": "Chalets accueillants",
+      "desc": "Des espaces de vie parfaitement nettoyés et chaleureux pour vos séjours."
+    },
+    "r2": {
+      "title": "Hygiène irréprochable",
+      "desc": "Un nettoyage approfondi des pièces d'eau."
+    },
+    "r3": {
+      "title": "Cuisines impeccables",
+      "desc": "Entretien minutieux de vos équipements et espaces repas."
+    },
+    "r4": {
+      "title": "Cuisine chez l'habitant",
+      "desc": "Clean Mountain & Co apporte la cuisine familiale exotique directement chez vous. Des plats faits maison, savoureux et préparés avec des produits frais, pour des repas conviviaux à partager.",
+      "quote1": "\"Authentique et surprenant : découvrez le mariage des délices artisanaux savoyards et exotiques.\"",
+      "quote2": "\"Plats traditionnels, sauces riches et ambiance conviviale : un vrai voyage gustatif.\""
+    },
+    "r5": {
+      "title": "Coffrets gourmands",
+      "desc": "Traditions savoyardes et délicatesses préparées sur commande."
+    },
+    "r6": {
+      "title": "Home Staging",
+      "desc": "Le home staging valorise votre logement. Clean Mountain & Co combine nettoyage professionnel, agencement soigné et décoration d’intérieur pensée pour charmer et séduire chaque visiteur."
+    },
+    "r7": {
+      "title": "Gestion du linge & Lits",
+      "desc": "Une attention particulière portée au confort : gestion complète du linge de maison et mise en place soignée des lits."
+    }
+  },
+  "cta_bottom": {
+    "title": "Prêt à nous confier vos espaces ?",
+    "subtitle": "Contactez-nous pour un devis personnalisé et retrouvez la tranquillité d'esprit.",
+    "contact": "Contact",
+    "quote": "Demande de devis"
+  }
+}
