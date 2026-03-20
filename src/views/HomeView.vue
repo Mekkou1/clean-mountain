@@ -95,14 +95,14 @@ import { RouterLink } from 'vue-router'
             <div class="row g-4">
               <div class="col-md-4">
                 <div class="text-center">
-                  <i class="fas fa-award text-warning fs-1 mb-3"></i>
+                  <i class="fas fa-award text-brand-green fs-1 mb-3"></i>
                   <h5 class="text-dark">{{ $t('about_home.v1_title') }}</h5>
                   <p class="text-muted">{{ $t('about_home.v1_text') }}</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="text-center">
-                  <i class="fas fa-seedling text-success fs-1 mb-3"></i>
+                  <i class="fas fa-seedling text-brand-green fs-1 mb-3"></i>
                   <h5 class="text-dark">{{ $t('about_home.v2_title') }}</h5>
                   <p class="text-muted">{{ $t('about_home.v2_text') }}</p>
                 </div>
