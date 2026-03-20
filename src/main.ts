@@ -10,7 +10,7 @@ import i18n from './i18n'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import './assets/main.css'
+import './assets/brand.css'
 
 const app = createApp(App)
 
