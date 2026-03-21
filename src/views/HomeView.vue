@@ -9,19 +9,19 @@ import { RouterLink } from 'vue-router'
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/chambre.jpg" class="d-block w-100 carousel-image" alt="Chambre d'enfant accueillante">
+            <img src="/images/1.jpg" class="d-block w-100 carousel-image" alt="Salon chaleureux avec cheminée et vue montagne">
           </div>
           <div class="carousel-item">
-            <img src="/images/entretient.jpg" class="d-block w-100 carousel-image" alt="Confort et luxe en montagne">
+            <img src="/images/2.jpg" class="d-block w-100 carousel-image" alt="Chambre d'enfant accueillante">
           </div>
           <div class="carousel-item">
-            <img src="/images/repas3.jpg" class="d-block w-100 carousel-image" alt="Cocktails exotiques et rafraîchissants">
+            <img src="/images/3.jpg" class="d-block w-100 carousel-image" alt="Confort et luxe en montagne">
           </div>
           <div class="carousel-item">
-            <img src="/images/hero-food.jpg" class="d-block w-100 carousel-image" alt="Poisson grillé aux saveurs authentiques">
+            <img src="/images/4.jpg" class="d-block w-100 carousel-image" alt="Cuisine gastronomique à domicile">
           </div>
           <div class="carousel-item">
-            <img src="/images/hero-bed.jpg" class="d-block w-100 carousel-image" alt="Service de mise en place impeccable">
+            <img src="/images/5.jpg" class="d-block w-100 carousel-image" alt="Coffret gourmand et attentions personnalisées">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
