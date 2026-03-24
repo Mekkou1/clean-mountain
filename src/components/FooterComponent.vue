@@ -23,6 +23,7 @@
           <h5 class="text-brand-gold mb-3 text-uppercase fw-bold">{{ $t('nav.contact') }}</h5>
           <p><i class="fas fa-map-marker-alt me-2 text-brand-gold"></i> Châtel, France</p>
           <p><i class="fas fa-phone me-2 text-brand-gold"></i> <a href="tel:0641365070" class="text-white text-decoration-none">06 41 36 50 70</a></p>
+          <p><i class="fab fa-whatsapp me-2 text-brand-gold"></i> <a href="https://wa.me/33641365070" target="_blank" class="text-white text-decoration-none">WhatsApp Business</a></p>
           <p><i class="fas fa-envelope me-2 text-brand-gold"></i> <a href="mailto:cleanmountain74@gmail.com" class="text-white text-decoration-none">cleanmountain74@gmail.com</a></p>
           <RouterLink to="/legal" class="text-brand-gold text-decoration-none mt-2 d-inline-block">{{ $t('footer.legal') }}</RouterLink>
         </div>

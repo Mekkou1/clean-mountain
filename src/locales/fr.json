@@ -1,19 +1,19 @@
 {
   "about_home": {
     "title": "À propos de Clean Mountain & CO",
-    "intro": "Au cœur des Alpes, CLEAN MOUNTAIN & CO vous accompagne avec des prestations sur mesure à Châtel, La Chapelle-d'Abondance et Abondance.",
+    "intro": "Dans la vallée d’Abondance, CLEAN MOUNTAIN & CO vous accompagne avec des prestations d’entretien sur mesure à Châtel, La Chapelle-d’Abondance et Abondance.",
     "li1": "Chalets et appartements",
     "li2": "Locations saisonnières & Airbnb",
     "li3": "Logements privés",
     "li4": "Locaux professionnels",
-    "personal": "En tant qu'auto-entrepreneur, je vous offre un service personnalisé, fiable et réactif, avec un réel souci du détail, afin d'offrir une expérience unique et mémorable à vos invités ou clients.",
+    "personal": "En tant qu’auto-entrepreneur, moi, Angie IZNARDO, je vous offre un service personnalisé, fiable et réactif, avec un réel souci du détail, afin de garantir une expérience unique et mémorable à vos invités ou clients.",
     "v1_title": "Qualité",
     "v1_text": "Service professionnel et attention aux détails",
     "v2_title": "Écologique",
     "v2_text": "Produits et méthodes respectueuses de l'environnement",
     "v3_title": "Professionnalisme",
     "v3_text": "Expérimentée et fiable",
-    "all_services": "Voir tous nos services"
+    "all_services": "Voir tous mes services"
   },
   "footer": {
     "tagline": "Services premium pour chalets et locations saisonnières",
@@ -23,22 +23,22 @@
   },
   "nav": {
     "home": "Accueil",
-    "services": "Nos Services",
+    "services": "Mes Services",
     "about": "À Propos",
     "eco": "Éco-responsable",
-    "menu": "Maquis d'Ange",
+    "menu": "Maquis d'Angie",
     "contact": "Contact",
     "quote": "Demander un devis"
   },
   "hero": {
     "title": "Impeccable, naturellement.",
-    "subtitle": "Service d'entretien / Cuisine chez l'habitant & Coffrets gourmands.",
-    "cta_services": "Nos services",
+    "subtitle": "Votre chalet, appartement ou Airbnb impeccable sans effort - Nettoyage écologique + options repas et coffrets gourmands",
+    "cta_services": "Mes services",
     "cta_quote": "Demande de devis"
   },
   "services": {
-    "title": "Nos Services Phares",
-    "description": "Découvrez nos prestations adaptées à la vie en montagne",
+    "title": "Mes Services Phares",
+    "description": "Découvrez mes prestations adaptées à la vie en montagne",
     "maintenance": {
       "title": "Entretien écologique",
       "p1": "Nettoyage approfondi et finitions soignées",
@@ -62,7 +62,7 @@
       "p4": "Présentation personnalisable"
     },
     "page": {
-      "title": "Nos Services",
+      "title": "Nettoyage éco & services premium inclus",
       "subtitle": "Une expertise complète pour votre confort en montagne",
       "maintenance_desc": "Un intérieur sain et étincelant avec des produits 100% écologiques.",
       "cooking_desc": "Une expérience culinaire unique directement dans votre cuisine.",
@@ -75,11 +75,11 @@
     "intro_title": "À propos",
     "intro_text": "Clean Mountain est née de la passion pour les Alpes et du désir d'offrir des services de nettoyage de qualité supérieure adaptés aux exigences uniques de la vie en montagne.",
     "history_title": "Notre histoire",
-    "history_p1": "Clean Mountain &Co se veut être une référence du nettoyage professionnel à Châtel et ses environs, alliant efficacité, confort et respect de l’environnement.",
-    "history_p2": "Nous proposons un package sur mesure regroupant entretien des locaux, repas chez l’habitant et coffrets gourmands, mariant subtilement tradition savoyarde et saveurs exotiques. Conscients de la pureté de la montagne, nous utilisons uniquement du matériel écologique, respectueux de la santé et de l’environnement dans lequel nous vivons..",
+    "history_p1": "Je suis Angie IZNARDO, spécialisée dans le nettoyage professionnel de chalets, appartements et locations Airbnb. J’assure des logements impeccables, prêts à accueillir vos clients rapidement et efficacement. J’utilise des produits écologiques pour un nettoyage respectueux de votre bien et de l’environnement.",
+    "history_p2": "En option : je propose des repas chez l’habitant et coffrets gourmands pour offrir une expérience unique et mémorable à vos voyageurs. Gagnez du temps, valorisez votre bien et attirez plus de clients. Contactez-moi dès maintenant pour un devis rapide.",
     "zone_title": "Zone d'intervention",
-    "zone_text": "Nous intervenons principalement dans les communes suivantes :",
-    "zone_p2": "Notre connaissance approfondie du terrain et des conditions climatiques locales nous permet d'adapter nos services aux particularités de chaque saison. Que ce soit en hiver avec la neige ou en été avec la poussière des pistes, nous sommes équipés pour répondre à tous vos besoins.",
+    "zone_text": "J'interviens principalement dans les communes suivantes :",
+    "zone_p2": "Ma connaissance approfondie du terrain et des conditions climatiques locales me permet d'adapter mes services aux particularités de chaque saison. Que ce soit en hiver avec la neige ou en été avec la poussière des pistes, je suis équipée pour répondre à tous vos besoins.",
     "values_title": "Valeurs fondamentales.",
     "v1_title": "Qualité irréprochable – Rigueur et attention aux moindres détails, rien n’est laissé au hasard.",
     "v1_text": "",
@@ -89,8 +89,8 @@
     "v3_text": ""
   },
   "eco": {
-    "hero": "NOTRE ENGAGEMENT ÉCOLOGIQUE",
-    "subtitle": "Clean Mountain s'engage pour un nettoyage respectueux de l'environnement alpin.",
+    "hero": "MON ENGAGEMENT ÉCOLOGIQUE",
+    "subtitle": "Je m'engage pour un nettoyage respectueux de l'environnement alpin.",
     "methods_title": "Méthodes respectueuses de l'environnement",
     "methods": [
       "Utilisation de produits biodégradables",
@@ -105,14 +105,14 @@
       "Matériels réutilisables",
       "Emballages recyclables"
     ],
-    "benefits_title": "Bénéfices pour nos clients et la nature",
+    "benefits_title": "Bénéfices pour mes clients et la nature",
     "benefits_p1": "Avec Clean Mountain, profitez d'espaces sains et d'une qualité de vie préservée, tout en protégeant les écosystèmes alpins de Châtel et de ses environs.",
     "benefits_p2": "Votre confiance contribue directement à la préservation de la biodiversité locale et à la pureté de notre environnement de montagne pour un avenir durable."
   },
   "menu": {
-    "hero_title": "LE MAQUIS D'ANGE",
+    "hero_title": "LE MAQUIS D'ANGIE",
     "hero_subtitle": "Saveurs d’ici, accueil d’ailleurs",
-    "hero_description": "\"Le maquis\", c’est l’âme de la cuisine ivoirienne : un lieu vivant, chaleureux et authentique, où l’on partage des plats généreux dans une ambiance conviviale. Chez Maquis d'Ange, le maquis prend de la hauteur et s’invite en montagne.",
+    "hero_description": "\"Le maquis\", c’est l’âme de la cuisine ivoirienne : un lieu vivant, chaleureux et authentique, où l’on partage des plats généreux dans une ambiance conviviale. Chez Maquis d'Angie, le maquis prend de la hauteur et s’invite en montagne.",
     "title": "Menus Exotiques",
     "people_label": "Pour",
     "people_unit": "personnes",
@@ -144,11 +144,11 @@
       "Nectar gingembre-ananas",
       "Cocktail exotique"
     ],
-    "ps_veggie": "Tous nos plats peuvent être adaptés aux végétariens",
+    "ps_veggie": "Tous mes plats peuvent être adaptés aux végétariens",
     "ps_spices": "Épices douces, possibilité de version relevée sur demande.",
     "btn_order": "Commander",
     "order_title": "Formulaire de Commande",
-    "order_desc": "Finalisez votre commande. Nous vous recontacterons rapidement pour confirmer les détails.",
+    "order_desc": "Finalisez votre commande. Je vous recontacterai rapidement pour confirmer les détails.",
     "opt_eggplant_beef": "Ragoût d'aubergines au bœuf",
     "opt_eggplant_chicken": "Ragoût d'aubergines au poulet",
     "opt_mafe_beef": "Mafé sauce cacahuète au bœuf",
@@ -163,8 +163,8 @@
     "opt_cocktail": "Cocktail exotique"
   },
   "contact": {
-    "title": "Contactez-nous",
-    "info_title": "Nos coordonnées",
+    "title": "Contactez-moi",
+    "info_title": "Mes coordonnées",
     "success": "Message envoyé avec succès!",
     "error": "Une erreur est survenue. Veuillez réessayer plus tard."
   },
@@ -172,7 +172,7 @@
     "title": "Demande de Devis",
     "subtitle": "Un devis gratuit et personnalisé sous 24h",
     "form_intro": "Remplissez ce formulaire pour obtenir un devis personnalisé pour vos besoins.",
-    "why_us": "Pourquoi nous choisir ?",
+    "why_us": "Pourquoi me choisir ?",
     "arg1": "Réponse sous 24h",
     "arg2": "Devis gratuit & sans engagement",
     "arg3": "Produits écologiques certifiés",
@@ -183,14 +183,14 @@
     "gift_desc": "Sélection de produits savoyards et exotiques"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients",
-    "subtitle": "Votre satisfaction est notre plus belle récompense. Découvrez les avis de ceux qui nous font confiance à Châtel.",
+    "title": "Ce que disent mes clients",
+    "subtitle": "Votre satisfaction est ma plus belle récompense. Découvrez les avis de ceux qui me font confiance à Châtel.",
     "leave_review": "Laisser un avis sur Google",
     "reviews": {
       "r1_name": "Sophie D.",
       "r1_text": "Un service impeccable ! Mon chalet n'a jamais été aussi propre. L'attention aux détails est impressionnante.",
       "r2_name": "Marc L.",
-      "r2_text": "Le menu du Maquis d'Ange était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
+      "r2_text": "Le menu du Maquis d'Angie était une découverte incroyable. Un vrai voyage culinaire livré directement à notre porte.",
       "r3_name": "Julie V.",
       "r3_text": "Professionnalisme et réactivité au top pour la gestion de ma location Airbnb. Je recommande vivement !"
     }
@@ -229,8 +229,8 @@
     "select_min_one": "Veuillez sélectionner au moins un plat."
   },
   "realisations": {
-    "title": "Nos actions",
-    "subtitle": "Découvrez nos prestations en images",
+    "title": "Mes actions",
+    "subtitle": "Découvrez mes prestations en images",
     "r1": {
       "title": "Entretien harmonieux",
       "desc": "Des espaces de vie parfaitement nettoyés et chaleureux pour vos séjours."
@@ -240,12 +240,12 @@
       "desc": "Un nettoyage approfondi des pièces d'eau."
     },
     "r3": {
-      "title": "Cuisines impeccables",
-      "desc": "Entretien minutieux de vos équipements et espaces repas."
+      "title": "Equipements et espaces",
+      "desc": "Entretien minutieux de vos équipements et espaces"
     },
     "r4": {
       "title": "Cuisine chez l'habitant",
-      "desc": "Clean Mountain & Co apporte la cuisine familiale exotique directement chez vous. Des plats faits maison, savoureux et préparés avec des produits frais, pour des repas conviviaux à partager.",
+      "desc": "J'apporte la cuisine familiale exotique directement chez vous. Des plats faits maison, savoureux et préparés avec des produits frais, pour des repas conviviaux à partager.",
       "quote1": "\"Authentique et surprenant : découvrez le mariage des délices artisanaux savoyards et exotiques.\"",
       "quote2": "\"Plats traditionnels, sauces riches et ambiance conviviale : un vrai voyage gustatif.\""
     },
@@ -263,7 +263,7 @@
     }
   },
   "cta_bottom": {
-    "title": "Prêt à nous confier vos espaces ?",
+    "title": "Prêt à me confier vos espaces ?",
     "subtitle": "Contactez-nous pour un devis personnalisé et retrouvez la tranquillité d'esprit.",
     "contact": "Contact",
     "quote": "Demande de devis"

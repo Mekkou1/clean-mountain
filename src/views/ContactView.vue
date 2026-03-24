@@ -48,6 +48,7 @@
         <p class="mb-3 fs-5"><i class="fas fa-building me-3 text-brand-gold"></i> <strong>Clean Mountain</strong></p>
         <p class="mb-3 fs-5"><i class="fas fa-map-marker-alt me-3 text-brand-gold"></i> Châtel, France</p>
         <p class="mb-3 fs-5"><i class="fas fa-phone me-3 text-brand-gold"></i> <a href="tel:0641365070" class="text-decoration-none text-dark">06 41 36 50 70</a></p>
+        <p class="mb-3 fs-5"><i class="fab fa-whatsapp me-3 text-brand-gold"></i> <a href="https://wa.me/33641365070" target="_blank" class="text-decoration-none text-dark">WhatsApp Business</a></p>
         <p class="mb-3 fs-5"><i class="fas fa-envelope me-3 text-brand-gold"></i> <a href="mailto:cleanmountain74@gmail.com" class="text-decoration-none text-dark">cleanmountain74@gmail.com</a></p>
         <div class="mt-4">
           <img src="/images/contact.jpg" alt="Chalet alpin Clean Mountain" class="img-fluid rounded shadow" style="object-fit: cover; height: 300px; width: 100%;" />

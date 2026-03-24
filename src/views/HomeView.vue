@@ -198,8 +198,17 @@ import { RouterLink } from 'vue-router'
         <div class="row g-4 justify-content-center">
           <!-- 1. Entretien harmonieux (R1) -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/realisation-2-dining.jpg" class="card-img-top" alt="Salle à manger propre et chaleureuse" style="height: 250px; object-fit: cover;">
+            <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden">
+              <div class="row g-0">
+                <div class="col-6 position-relative">
+                  <img src="/images/dining-before.jpg" class="w-100" alt="Avant service" style="height: 250px; object-fit: cover;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-secondary opacity-75">Avant</span>
+                </div>
+                <div class="col-6 position-relative">
+                  <img src="/images/dining-after.jpg" class="w-100" alt="Après service" style="height: 250px; object-fit: cover; border-left: 2px solid white;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-success opacity-75">Après</span>
+                </div>
+              </div>
               <div class="card-body text-center">
                 <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r1.title') }}</h5>
                 <p class="card-text text-muted">{{ $t('realisations.r1.desc') }}</p>
@@ -208,8 +217,17 @@ import { RouterLink } from 'vue-router'
           </div>
           <!-- 2. Home Staging (R6) -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/service-homestaging.jpg" class="card-img-top" alt="Home staging" style="height: 250px; object-fit: cover;">
+            <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden">
+              <div class="row g-0">
+                <div class="col-6 position-relative">
+                  <img src="/images/homestaging-before.jpg" class="w-100" alt="Avant service" style="height: 250px; object-fit: cover;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-secondary opacity-75">Avant</span>
+                </div>
+                <div class="col-6 position-relative">
+                  <img src="/images/service-homestaging.jpg" class="w-100" alt="Après service" style="height: 250px; object-fit: cover; border-left: 2px solid white;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-success opacity-75">Après</span>
+                </div>
+              </div>
               <div class="card-body text-center d-flex flex-column">
                 <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r6.title') }}</h5>
                 <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r6.desc') }}</p>
@@ -218,8 +236,17 @@ import { RouterLink } from 'vue-router'
           </div>
           <!-- 3. Gestion du linge & mise en place des lits (R7) -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/service-entretien.jpg" class="card-img-top" alt="Gestion du linge et mise en place des lits" style="height: 250px; object-fit: cover;">
+            <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden">
+              <div class="row g-0">
+                <div class="col-6 position-relative">
+                  <img src="/images/linen-before.jpg" class="w-100" alt="Avant service" style="height: 250px; object-fit: cover;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-secondary opacity-75">Avant</span>
+                </div>
+                <div class="col-6 position-relative">
+                  <img src="/images/linen-after.jpg" class="w-100" alt="Après service" style="height: 250px; object-fit: cover; border-left: 2px solid white;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-success opacity-75">Après</span>
+                </div>
+              </div>
               <div class="card-body text-center d-flex flex-column">
                 <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r7.title') }}</h5>
                 <p class="card-text text-muted flex-grow-1">{{ $t('realisations.r7.desc') }}</p>
@@ -238,8 +265,17 @@ import { RouterLink } from 'vue-router'
           </div>
           <!-- 5. Cuisines impeccables (R3) -->
           <div class="col-md-4">
-            <div class="card h-100 border-0 shadow-sm hover-lift">
-              <img src="/images/realisation-3-kitchen.jpg" class="card-img-top" alt="Cuisine de chalet étincelante" style="height: 250px; object-fit: cover;">
+            <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden">
+              <div class="row g-0">
+                <div class="col-6 position-relative">
+                  <img src="/images/kitchen-before.jpg" class="w-100" alt="Avant service" style="height: 250px; object-fit: cover;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-secondary opacity-75">Avant</span>
+                </div>
+                <div class="col-6 position-relative">
+                  <img src="/images/kitchen-after.jpg" class="w-100" alt="Après service" style="height: 250px; object-fit: cover; border-left: 2px solid white;">
+                  <span class="position-absolute top-0 start-0 m-2 badge bg-success opacity-75">Après</span>
+                </div>
+              </div>
               <div class="card-body text-center">
                 <h5 class="card-title text-brand-green text-uppercase">{{ $t('realisations.r3.title') }}</h5>
                 <p class="card-text text-muted">{{ $t('realisations.r3.desc') }}</p>
@@ -359,6 +395,7 @@ import { RouterLink } from 'vue-router'
         <p class="lead mb-5 fs-5">{{ $t('cta_bottom.subtitle') }}</p>
         <p class="lead mb-4 fw-bold text-brand-gold fs-4">
           <i class="fas fa-phone me-2"></i> 06 41 36 50 70<br>
+          <i class="fab fa-whatsapp me-2"></i> <a href="https://wa.me/33641365070" target="_blank" class="text-brand-gold text-decoration-none">WhatsApp Business</a><br>
           <i class="fas fa-envelope me-2"></i> cleanmountain74@gmail.com
         </p>
         <div class="d-flex justify-content-center gap-4 flex-wrap mt-4">
