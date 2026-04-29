@@ -128,9 +128,11 @@
     "p3_name": "Ragoût d’aubergines fondant à la viande de bœuf ou au poulet fermier",
     "p3_desc": "Richesse et onctuosité incomparable",
     "p4_name": "Mafé du terroir \"sauce cacahuète\" au bœuf ou poulet fermier",
-    "p4_desc": "Explosion de saveurs authentiques",
+    "p4_desc": "Explosion de saveurs authentiques avec sa sauce onctueuse.",
     "p5_name": "Grillades exotiques ivoiriennes et leur rougaille",
-    "p5_desc": "Festival de saveurs et gourmandise barbecue",
+    "p5_desc": "Festival de saveurs barbecue. Choisissez entre le poisson braisé à l’ivoirienne ou le poulet braisé à l’ivoirienne.",
+    "p5_fish": "Poisson braisé à l'ivoirienne",
+    "p5_chicken": "Poulet braisé à l'ivoirienne",
     "cat_sides": "Accompagnements",
     "sides": [
       "Riz pilaf parfumé ou riz coco délicat",

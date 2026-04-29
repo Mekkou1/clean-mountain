@@ -128,9 +128,11 @@
     "p3_name": "Melting eggplant stew with beef or free-range chicken",
     "p3_desc": "Incomparable richness and creaminess",
     "p4_name": "Country Mafé \"peanut sauce\" with beef or free-range chicken",
-    "p4_desc": "Explosion of authentic flavors",
+    "p4_desc": "Explosion of authentic flavors with its creamy sauce.",
     "p5_name": "Exotic Ivorian grills and their rougaille",
-    "p5_desc": "Festival of flavors and barbecue indulgence",
+    "p5_desc": "Festival of flavors and barbecue indulgence. Choose between Ivorian braised fish or Ivorian braised chicken.",
+    "p5_fish": "Ivorian braised fish",
+    "p5_chicken": "Ivorian braised chicken",
     "cat_sides": "Side Dishes",
     "sides": [
       "Fragrant pilaf rice or delicate coconut rice",

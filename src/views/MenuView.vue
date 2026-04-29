@@ -40,28 +40,67 @@
               <h3 class="text-brand-green border-bottom pb-2 mb-4 d-flex align-items-center">
                 <i class="fas fa-utensils me-3" style="color: var(--cm-gold);"></i> {{ $t('menu.cat_signature') }}
               </h3>
-              <ul class="list-unstyled mb-0">
-                <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p1_name') }}</h5>
-                  <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p1_desc') }}</p>
-                </li>
-                <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p2_name') }}</h5>
-                  <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p2_desc') }}</p>
-                </li>
-                <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p3_name') }}</h5>
-                  <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p3_desc') }}</p>
-                </li>
-                <li class="mb-4">
-                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p4_name') }}</h5>
-                  <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p4_desc') }}</p>
-                </li>
-                <li class="mb-3">
-                  <h5 class="fw-bold"><i class="fas fa-star me-2 fs-6" style="color: var(--cm-gold);"></i> {{ $t('menu.p5_name') }}</h5>
-                  <p class="text-muted fst-italic ms-4 mb-0">{{ $t('menu.p5_desc') }}</p>
-                </li>
-              </ul>
+              
+              <div class="signature-dishes">
+                <!-- Plats sans images (plus compacts) -->
+                <div class="mb-4">
+                  <div class="d-flex mb-3">
+                    <i class="fas fa-star mt-1 me-3 text-brand-gold"></i>
+                    <div>
+                      <h5 class="fw-bold mb-1">{{ $t('menu.p1_name') }}</h5>
+                      <p class="text-muted fst-italic small mb-0">{{ $t('menu.p1_desc') }}</p>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <i class="fas fa-star mt-1 me-3 text-brand-gold"></i>
+                    <div>
+                      <h5 class="fw-bold mb-1">{{ $t('menu.p2_name') }}</h5>
+                      <p class="text-muted fst-italic small mb-0">{{ $t('menu.p2_desc') }}</p>
+                    </div>
+                  </div>
+                  <div class="d-flex mb-3">
+                    <i class="fas fa-star mt-1 me-3 text-brand-gold"></i>
+                    <div>
+                      <h5 class="fw-bold mb-1">{{ $t('menu.p3_name') }}</h5>
+                      <p class="text-muted fst-italic small mb-0">{{ $t('menu.p3_desc') }}</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mafé avec image -->
+                <div class="special-dish mb-4 p-3 rounded-3 bg-light border-start border-4 border-warning">
+                  <div class="row align-items-center g-3">
+                    <div class="col-sm-4">
+                      <img src="/images/arrachide.jpg" :alt="$t('menu.p4_name')" class="img-fluid rounded-3 shadow-sm dish-img-hover">
+                    </div>
+                    <div class="col-sm-8">
+                      <h5 class="fw-bold text-brand-green mb-1">{{ $t('menu.p4_name') }}</h5>
+                      <p class="text-muted fst-italic small mb-0">{{ $t('menu.p4_desc') }}</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Grillades avec images -->
+                <div class="special-dish p-3 rounded-3 bg-light border-start border-4 border-success">
+                  <h5 class="fw-bold text-brand-green mb-3">{{ $t('menu.p5_name') }}</h5>
+                  <p class="text-muted fst-italic small mb-3">{{ $t('menu.p5_desc') }}</p>
+                  
+                  <div class="row g-3">
+                    <div class="col-6">
+                      <div class="text-center">
+                        <img src="/images/poisson braiser ivoirienne.jpg" :alt="$t('menu.p5_fish')" class="img-fluid rounded-3 shadow-sm mb-2 dish-img-hover" style="height: 100px; width: 100%; object-fit: cover;">
+                        <span class="badge bg-brand-green w-100 py-2">{{ $t('menu.p5_fish') }}</span>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="text-center">
+                        <img src="/images/poulet braiser ivoirienne.jpg" :alt="$t('menu.p5_chicken')" class="img-fluid rounded-3 shadow-sm mb-2 dish-img-hover" style="height: 100px; width: 100%; object-fit: cover;">
+                        <span class="badge bg-brand-gold w-100 py-2">{{ $t('menu.p5_chicken') }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -221,8 +260,12 @@
                 <label class="form-check-label" for="dish_mafe_poulet">{{ $t('menu.opt_mafe_chicken') }}</label>
               </div>
               <div class="form-check menu-check-item mb-3">
-                <input class="form-check-input" type="checkbox" id="dish_grillades" value="Grillades exotiques ivoirienne" v-model="orderForm.choixMenu">
-                <label class="form-check-label" for="dish_grillades">{{ $t('menu.p5_name') }}</label>
+                <input class="form-check-input" type="checkbox" id="dish_grillades_fish" :value="$t('menu.p5_fish')" v-model="orderForm.choixMenu">
+                <label class="form-check-label" for="dish_grillades_fish">{{ $t('menu.p5_fish') }}</label>
+              </div>
+              <div class="form-check menu-check-item mb-3">
+                <input class="form-check-input" type="checkbox" id="dish_grillades_chicken" :value="$t('menu.p5_chicken')" v-model="orderForm.choixMenu">
+                <label class="form-check-label" for="dish_grillades_chicken">{{ $t('menu.p5_chicken') }}</label>
               </div>
 
               <!-- Accompagnements -->
@@ -430,5 +473,32 @@ export default {
 .menu-check-item .form-check-input:checked + .form-check-label {
   color: var(--cm-green);
   font-weight: 600;
+}
+
+/* New Menu Styles */
+.dish-img-hover {
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.dish-img-hover:hover {
+  transform: scale(1.05);
+}
+
+.special-dish {
+  transition: all 0.3s ease;
+}
+
+.special-dish:hover {
+  background-color: #f0f4f2 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.bg-brand-green {
+  background-color: var(--cm-green) !important;
+}
+
+.bg-brand-gold {
+  background-color: var(--cm-gold) !important;
 }
 </style>
