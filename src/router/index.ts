@@ -63,4 +63,12 @@ const router = createRouter({
   }
 })
 
+// Guard pour mettre à jour le titre de la page dynamiquement
+router.beforeEach((to) => {
+  const title = to.meta.title as string
+  if (title) {
+    document.title = title
+  }
+})
+
 export default router
