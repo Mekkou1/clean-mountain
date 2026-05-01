@@ -34,22 +34,16 @@ onMounted(() => {
             <h3>Bienvenue</h3>
             <div class="message">
               <p>
-                Dynamique, souriante, courageuse et profondément humaine, je suis une personne investie qui place la qualité et le sens du détail au cœur de son travail. Curieuse et motivée, j’aime apprendre, me dépasser et relever de nouveaux défis.
+                Je suis Angie IZNARDO, professionnelle engagée et passionnée. Femme et maman épanouie, je mets la qualité et le sens du détail au cœur de mon travail, tout en étant particulièrement attentive au respect de l’environnement grâce à des pratiques écologiques.
               </p>
               <p>
-                Installée à Châtel depuis près de huit ans, je connais parfaitement la vallée et son environnement, ce qui me permet d’offrir un accompagnement fiable, adapté et en phase avec les attentes locales.
+                Installée à Châtel depuis 8 ans, je connais parfaitement la vallée et ses exigences. Fiable et investie, j’accompagne mes clients avec sérieux, bienveillance et un vrai sens du relationnel.
               </p>
               <p>
-                Maman épanouie, je suis particulièrement sensible au respect de l’environnement et du cadre de vie. Je privilégie au quotidien des pratiques et des produits écologiques, dans une démarche responsable et durable.
-              </p>
-              <p>
-                Déterminée et persévérante, je m’investis pleinement dans chaque mission. Très attachée au relationnel, j’aime créer du lien, instaurer un climat de confiance et contribuer positivement à l’expérience des personnes que j’accompagne.
-              </p>
-              <p>
-                Créative et passionnée par la décoration et le home staging, j’aime révéler le potentiel des espaces avec un véritable effet « waouh ».
+                Mon plus ? Une véritable sensibilité pour la décoration et le home staging, afin de sublimer vos espaces et créer un effet « coup de cœur ».
               </p>
               <p class="signature">
-                Travailler avec moi, c’est choisir la confiance, la fiabilité et une collaboration fondée sur des valeurs humaines fortes.
+                🤝 Travailler avec moi, c’est choisir la confiance, la fiabilité et une collaboration fondée sur des valeurs humaines fortes.
               </p>
             </div>
             
